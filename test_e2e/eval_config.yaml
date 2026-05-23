@@ -1,0 +1,18 @@
+input_path: test_e2e/completions.json
+dataset_path: test_e2e/dataset.jsonl
+output_dir: test_e2e/output
+
+leakage:
+  judge_model: "google/gemini-3.1-flash-lite"
+  taxonomy_batch_size: 10
+  taxonomy_concurrency: 5
+
+shapley:
+  evaluator_backend: "openrouter"
+  evaluator_model_policy: "same_as_generator"
+  temperature: 0.0
+  coalition_concurrency: 4
+  coalition_budget_c: 15.0
+  coalition_budget_cap: 1200
+  exact_threshold_n: 8
+  random_seed: 42

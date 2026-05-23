@@ -1,0 +1,27 @@
+# Runtime outputs (experiment results, completions, eval artifacts)
+runtime/
+logs/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets
+.env
+.env.*
+
+# Dataset (rebuild from scripts or download separately)
+dataset
+
+# OS / editor artifacts
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Test output artifacts
+test_e2e/output/
+test_e2e/leakage_eval_*/

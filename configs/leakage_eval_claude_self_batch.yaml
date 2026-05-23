@@ -1,0 +1,28 @@
+# Self-consistent evaluation using the Anthropic Batch API.
+# Same model (Claude Sonnet 4) for both taxonomy/leakage judging and Shapley coalitions.
+# The evaluator_backend is unused in batch mode (we always go through Anthropic).
+input_path: ""
+dataset_path: ""
+output_dir: ""
+
+leakage:
+  judge_model: "claude-sonnet-4-20250514"
+  taxonomy_batch_size: 100
+  taxonomy_concurrency: 8
+  search_concurrency: 10
+  search_only_on_escalation: true
+
+shapley:
+  skip_if_no_leakage: true
+  use_paper_leverage_shap: true
+  evaluator_backend: "openrouter"
+  evaluator_model_policy: "fixed"
+  evaluator_model_override: "claude-sonnet-4-20250514"
+  temperature: 0.0
+  coalition_concurrency: 8
+  coalition_budget_c: 15.0
+  coalition_budget_cap: 1200
+  exact_threshold_n: 8
+  high_rigor_c: 25.0
+  high_rigor_subset_size: 50
+  random_seed: 42

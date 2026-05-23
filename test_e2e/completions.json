@@ -1,0 +1,44 @@
+[
+  {
+    "instance_id": "ipo_test_001",
+    "model": "anthropic/claude-sonnet-4",
+    "method": "b1",
+    "task": "binary",
+    "parse_success": true,
+    "probability_yes": 0.95,
+    "prediction": "yes",
+    "reasoning": "Multiple evidence points strongly suggest IPO activity resumed on Chinese exchanges before January 2016, including CSRC announcements and actual company listings.",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "China suspended all IPO activity on the Shanghai and Shenzhen exchanges in early July 2015 amid a severe stock market crash.",
+        "source_date": "2015-07-03"
+      },
+      {
+        "id": 2,
+        "fact": "The Shanghai Composite Index lost approximately 32% of its value between June 12 and July 8, 2015, in what became known as the Chinese stock market crash.",
+        "source_date": "2015-06-15"
+      },
+      {
+        "id": 3,
+        "fact": "The China Securities Regulatory Commission (CSRC) announced in late August 2015 that 28 companies had been approved for IPO and would be allowed to proceed with public offerings.",
+        "source_date": "2015-08-25"
+      },
+      {
+        "id": 4,
+        "fact": "In November 2015, the CSRC officially confirmed the restart of IPO processes, ending the four-month suspension that had been in place since July.",
+        "source_date": "2015-11-06"
+      },
+      {
+        "id": 5,
+        "fact": "The first batch of 10 companies began trading on the Shanghai and Shenzhen exchanges in late November 2015, marking the formal resumption of IPO activity.",
+        "source_date": "2015-11-20"
+      },
+      {
+        "id": 6,
+        "fact": "Zhongjian Technology completed its IPO on the Shenzhen Stock Exchange on December 4, 2015, raising approximately 500 million yuan.",
+        "source_date": "2015-12-04"
+      }
+    ]
+  }
+]

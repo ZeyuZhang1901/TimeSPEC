@@ -1,0 +1,1 @@
+{"id": "ipo_test_001", "question": "Will there be an IPO on the Shanghai or Shenzhen Stock Exchange before 1 January 2016?", "answer": "yes", "answer_type": "binary", "temporal_cutoff": "2015-07-01", "resolution_date": "2015-12-01", "source": "synthetic_test", "target_description": "Chinese stock exchange IPO activity"}

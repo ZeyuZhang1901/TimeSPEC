@@ -1,0 +1,24 @@
+input_path: ""
+dataset_path: ""
+output_dir: "LeakageEvaluationFramework/runtime/results/default"
+
+leakage:
+  judge_model: "google/gemini-3.1-flash-lite"
+  taxonomy_batch_size: 100
+  taxonomy_concurrency: 20
+  search_concurrency: 10
+  search_only_on_escalation: true
+
+shapley:
+  skip_if_no_leakage: true
+  evaluator_backend: "openrouter"
+  evaluator_model_policy: "same_as_generator"
+  renderer_name_policy: "same_as_generator"
+  temperature: 0.0
+  batch_different_coalitions: false
+  coalition_budget_c: 15.0
+  coalition_budget_cap: 1200
+  exact_threshold_n: 8
+  high_rigor_c: 25.0
+  high_rigor_subset_size: 50
+  random_seed: 42

@@ -1,0 +1,438 @@
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:35:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:37:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:39:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:41:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:43:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:45:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:47:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:49:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:51:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:53:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:55:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:57:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 02:59:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 03:01:46 AM UTC 2026
+[e3] waiting for crawl (pid 3431813) Tue Aug  4 03:03:46 AM UTC 2026
+[e3] crawl finished, finalizing contexts Tue Aug  4 03:05:46 AM UTC 2026
+{
+  "n_questions": 350,
+  "usable_contexts": 314,
+  "coverage": 0.8971428571428571
+}
+[e3] snapshot-rag generation start Tue Aug  4 03:05:46 AM UTC 2026
+B3 parse failure for autocast_G1908
+B3 parse failure for autocast_G1916
+B3 parse failure for autocast_G204
+B3 parse failure for autocast_G2066
+B3 parse failure for autocast_G2102
+B3 parse failure for autocast_G27
+B3 parse failure for autocast_M10568
+B3 parse failure for autocast_M1457
+B3 parse failure for autocast_M1581
+B3 parse failure for autocast_M170
+B3 parse failure for autocast_M2971
+B3 parse failure for autocast_M3083
+B3 parse failure for autocast_M3145
+B3 parse failure for autocast_M385
+B3 parse failure for autocast_M534
+B3 parse failure for autocast_M5396
+B3 parse failure for autocast_M5434
+B3 parse failure for autocast_M6393
+B3 parse failure for autocast_M6688
+B3 parse failure for autocast_M7494
+B3 parse failure for autocast_M9918
+[snapshot-rag] 200 questions selected (314 usable contexts)
+{
+  "n": 200,
+  "parse_success": 179,
+  "elapsed_s": 1771.3
+}
+[e3] snapshot-rag generation done Tue Aug  4 03:35:20 AM UTC 2026
+[e3] b3/b4 generation start Tue Aug  4 03:35:20 AM UTC 2026
+2026-08-04 03:35:22,420 INFO LeakageEvaluationFramework.generation.runner — Loaded 200 instances (split=all)
+2026-08-04 03:35:22,550 INFO LeakageEvaluationFramework.generation.runner — RAG retrieval: 0 cached, 200 to fetch (concurrency=8)
+2026-08-04 03:41:24,271 INFO LeakageEvaluationFramework.generation.runner — RAG retrieval progress: 100 / 200 fetched
+2026-08-04 03:47:07,477 INFO LeakageEvaluationFramework.generation.runner — RAG retrieval progress: 200 / 200 fetched
+2026-08-04 03:47:07,509 INFO LeakageEvaluationFramework.generation.runner — Running Phase 1B (RAG) for 200 instances …
+2026-08-04 03:47:17,015 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 8 / 200 completions
+2026-08-04 03:47:22,556 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 16 / 200 completions
+2026-08-04 03:47:30,575 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 24 / 200 completions
+2026-08-04 03:47:38,341 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 32 / 200 completions
+2026-08-04 03:47:47,582 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 40 / 200 completions
+2026-08-04 03:47:52,893 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 48 / 200 completions
+2026-08-04 03:48:02,542 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 56 / 200 completions
+2026-08-04 03:48:11,450 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 64 / 200 completions
+2026-08-04 03:48:24,357 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 72 / 200 completions
+2026-08-04 03:48:43,712 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 80 / 200 completions
+2026-08-04 03:48:50,885 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 88 / 200 completions
+2026-08-04 03:48:59,461 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 96 / 200 completions
+2026-08-04 03:49:06,569 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 104 / 200 completions
+2026-08-04 03:49:14,263 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 112 / 200 completions
+2026-08-04 03:49:24,489 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 120 / 200 completions
+2026-08-04 03:49:37,087 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 128 / 200 completions
+2026-08-04 03:49:45,545 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 136 / 200 completions
+2026-08-04 03:49:57,124 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 144 / 200 completions
+2026-08-04 03:50:07,766 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 152 / 200 completions
+2026-08-04 03:50:12,958 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 160 / 200 completions
+2026-08-04 03:50:21,959 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 168 / 200 completions
+2026-08-04 03:50:28,882 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 176 / 200 completions
+2026-08-04 03:50:40,163 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 184 / 200 completions
+2026-08-04 03:50:46,287 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 192 / 200 completions
+2026-08-04 03:51:37,364 INFO LeakageEvaluationFramework.generation._openrouter_gen — Generated 200 / 200 completions
+2026-08-04 03:51:37,391 INFO LeakageEvaluationFramework.generation.runner — Phase 1B quality: 197/200 good (98.5%), 0 empty, 3 truncated
+2026-08-04 03:51:37,397 INFO LeakageEvaluationFramework.generation.runner — Running method b3 for 200 instances …
+2026-08-04 03:51:37,440 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_G195
+2026-08-04 03:51:37,470 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_G2102
+2026-08-04 03:51:37,475 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_G2106
+2026-08-04 03:51:37,477 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_G22
+2026-08-04 03:51:37,527 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_G37
+2026-08-04 03:51:37,544 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_G540
+2026-08-04 03:51:37,575 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M10623
+2026-08-04 03:51:37,598 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M172
+2026-08-04 03:51:37,636 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M2706
+2026-08-04 03:51:37,640 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M278
+2026-08-04 03:51:37,641 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M2794
+2026-08-04 03:51:37,677 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M3590
+2026-08-04 03:51:37,694 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M3859
+2026-08-04 03:51:37,711 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M457
+2026-08-04 03:51:37,760 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M5434
+2026-08-04 03:51:37,792 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M6303
+2026-08-04 03:51:37,798 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M6338
+2026-08-04 03:51:37,806 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M6442
+2026-08-04 03:51:37,829 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M7382
+2026-08-04 03:51:37,836 WARNING LeakageEvaluationFramework.generation.methods.b3_rag — B3 parse failure for autocast_M7987
+2026-08-04 03:51:37,888 INFO LeakageEvaluationFramework.generation.runner — Wrote 200 completions for method b3 (90.0% parse success)
+2026-08-04 03:51:37,890 INFO LeakageEvaluationFramework.generation.runner — Running method b4 for 200 instances …
+2026-08-04 03:51:39,893 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G127: 1 / 5 claims
+2026-08-04 03:51:39,959 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G133: 3 / 4 claims
+2026-08-04 03:51:39,984 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G130: 2 / 7 claims
+2026-08-04 03:51:40,670 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G180: 1 / 5 claims
+2026-08-04 03:51:41,472 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G19: 1 / 4 claims
+2026-08-04 03:51:41,956 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G190: 3 / 5 claims
+2026-08-04 03:51:42,013 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G1892: 1 / 6 claims
+2026-08-04 03:51:44,122 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G1916: 3 / 5 claims
+2026-08-04 03:51:45,322 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_G195
+2026-08-04 03:51:48,721 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G203: 1 / 6 claims
+2026-08-04 03:51:49,359 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G2045: 2 / 5 claims
+2026-08-04 03:51:49,649 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G204: 2 / 6 claims
+2026-08-04 03:51:50,685 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_G2102
+2026-08-04 03:51:50,686 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_G2106
+2026-08-04 03:51:50,687 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_G22
+2026-08-04 03:51:52,465 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G2096: 1 / 5 claims
+2026-08-04 03:51:56,571 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G237: 2 / 5 claims
+2026-08-04 03:51:59,911 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G263: 1 / 4 claims
+2026-08-04 03:52:01,098 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G281: 1 / 4 claims
+2026-08-04 03:52:01,825 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G282: 4 / 5 claims
+2026-08-04 03:52:03,118 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_G2045: 1 leaked claims
+2026-08-04 03:52:04,912 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G2045: 1 / 5 claims
+2026-08-04 03:52:06,501 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G293: 1 / 5 claims
+2026-08-04 03:52:07,091 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_G190: 2 leaked claims
+2026-08-04 03:52:09,748 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G308: 1 / 6 claims
+2026-08-04 03:52:11,288 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_G37
+2026-08-04 03:52:13,551 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G361: 1 / 5 claims
+2026-08-04 03:52:13,992 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_G130: 1 leaked claims
+2026-08-04 03:52:14,452 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G462: 3 / 5 claims
+2026-08-04 03:52:16,156 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G130: 2 / 7 claims
+2026-08-04 03:52:17,416 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G470: 1 / 5 claims
+2026-08-04 03:52:18,503 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G484: 2 / 4 claims
+2026-08-04 03:52:21,862 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G525: 1 / 7 claims
+2026-08-04 03:52:27,007 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_G540
+2026-08-04 03:52:29,129 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G572: 6 / 6 claims
+2026-08-04 03:52:29,411 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_G470: 1 leaked claims
+2026-08-04 03:52:29,776 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_G204: 1 leaked claims
+2026-08-04 03:52:30,731 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G65: 3 / 5 claims
+2026-08-04 03:52:31,152 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G204: 1 / 5 claims
+2026-08-04 03:52:32,081 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 aggregation parse failure for autocast_G190
+2026-08-04 03:52:35,768 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_G462: 1 leaked claims
+2026-08-04 03:52:36,728 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_G308: 1 leaked claims
+2026-08-04 03:52:36,728 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 1) for autocast_G308
+2026-08-04 03:52:37,652 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G462: 2 / 5 claims
+2026-08-04 03:52:37,879 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M10106: 1 / 6 claims
+2026-08-04 03:52:38,329 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M1041: 3 / 4 claims
+2026-08-04 03:52:40,751 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M10423: 1 / 6 claims
+2026-08-04 03:52:41,287 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M10623
+2026-08-04 03:52:42,740 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M10663: 1 / 5 claims
+2026-08-04 03:52:46,987 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M110: 1 / 7 claims
+2026-08-04 03:52:47,922 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M1479: 2 / 5 claims
+2026-08-04 03:52:49,434 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M1597: 2 / 4 claims
+2026-08-04 03:52:52,245 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M172
+2026-08-04 03:52:54,134 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M170: 2 / 7 claims
+2026-08-04 03:52:54,384 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M1685: 1 / 5 claims
+2026-08-04 03:52:58,208 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 aggregation parse failure for autocast_G204
+2026-08-04 03:52:58,279 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M194: 1 / 6 claims
+2026-08-04 03:53:01,395 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M1479: 1 leaked claims
+2026-08-04 03:53:02,821 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M1479: 3 / 5 claims
+2026-08-04 03:53:03,846 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M2706
+2026-08-04 03:53:03,939 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M2573: 2 / 7 claims
+2026-08-04 03:53:05,439 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M258: 9 / 12 claims
+2026-08-04 03:53:05,681 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M2627: 5 / 7 claims
+2026-08-04 03:53:05,724 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M277: 2 / 5 claims
+2026-08-04 03:53:05,973 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M2624: 1 / 5 claims
+2026-08-04 03:53:06,268 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M278
+2026-08-04 03:53:06,268 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M2794
+2026-08-04 03:53:07,705 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M287: 2 / 3 claims
+2026-08-04 03:53:17,621 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M3083: 2 / 6 claims
+2026-08-04 03:53:17,772 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M309: 1 / 4 claims
+2026-08-04 03:53:19,656 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M2624: 2 leaked claims
+2026-08-04 03:53:21,540 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_G572: 1 leaked claims
+2026-08-04 03:53:21,596 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M2624: 1 / 5 claims
+2026-08-04 03:53:21,804 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M316: 1 / 4 claims
+2026-08-04 03:53:22,267 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M3198: 1 / 5 claims
+2026-08-04 03:53:23,987 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_G572: 3 / 7 claims
+2026-08-04 03:53:27,295 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M3268: 2 / 7 claims
+2026-08-04 03:53:27,893 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M352: 1 / 5 claims
+2026-08-04 03:53:28,243 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M3590
+2026-08-04 03:53:28,798 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M309: 1 leaked claims
+2026-08-04 03:53:30,182 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M368: 1 / 6 claims
+2026-08-04 03:53:30,740 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M309: 1 / 5 claims
+2026-08-04 03:53:33,976 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M3859
+2026-08-04 03:53:35,579 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M385: 2 / 5 claims
+2026-08-04 03:53:35,671 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M380: 2 / 7 claims
+2026-08-04 03:53:37,811 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M3991: 4 / 8 claims
+2026-08-04 03:53:39,580 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M4280: 3 / 6 claims
+2026-08-04 03:53:40,311 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M43: 2 / 7 claims
+2026-08-04 03:53:41,322 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M457
+2026-08-04 03:53:43,488 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M430: 1 / 6 claims
+2026-08-04 03:53:43,772 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M47: 1 / 7 claims
+2026-08-04 03:53:45,138 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M470: 3 / 5 claims
+2026-08-04 03:53:46,973 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M4766: 4 / 5 claims
+2026-08-04 03:53:53,795 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M5105: 1 / 5 claims
+2026-08-04 03:53:54,060 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M430: 1 leaked claims
+2026-08-04 03:53:54,609 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M5271: 2 / 5 claims
+2026-08-04 03:53:55,788 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M534: 1 / 6 claims
+2026-08-04 03:53:56,374 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M430: 1 / 6 claims
+2026-08-04 03:53:57,823 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M5434
+2026-08-04 03:53:58,687 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M5396: 3 / 5 claims
+2026-08-04 03:54:00,050 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M5512: 2 / 4 claims
+2026-08-04 03:54:03,465 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M5766: 2 / 5 claims
+2026-08-04 03:54:05,458 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M6303
+2026-08-04 03:54:05,587 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M599: 1 / 8 claims
+2026-08-04 03:54:06,033 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M6338
+2026-08-04 03:54:07,696 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M633: 2 / 7 claims
+2026-08-04 03:54:10,266 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M6372: 6 / 7 claims
+2026-08-04 03:54:10,341 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M6442
+2026-08-04 03:54:10,926 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M6393: 2 / 5 claims
+2026-08-04 03:54:11,697 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M5512: 2 leaked claims
+2026-08-04 03:54:13,466 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M5512: 1 / 4 claims
+2026-08-04 03:54:14,947 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M6642: 3 / 4 claims
+2026-08-04 03:54:16,078 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M6688: 1 / 4 claims
+2026-08-04 03:54:17,869 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M6693: 1 / 8 claims
+2026-08-04 03:54:23,478 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M7382
+2026-08-04 03:54:23,712 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M7214: 2 / 5 claims
+2026-08-04 03:54:23,944 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M7378: 1 / 6 claims
+2026-08-04 03:54:25,284 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M7688: 1 / 4 claims
+2026-08-04 03:54:25,633 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M7494: 3 / 6 claims
+2026-08-04 03:54:26,586 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M6688: 1 leaked claims
+2026-08-04 03:54:28,089 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 parse failure (cycle 0) for autocast_M7987
+2026-08-04 03:54:30,110 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M8002: 1 / 6 claims
+2026-08-04 03:54:31,672 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M9455: 3 / 4 claims
+2026-08-04 03:54:39,832 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M8002: 1 leaked claims
+2026-08-04 03:54:42,976 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M6642: 1 leaked claims
+2026-08-04 03:54:44,116 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M804: 1 leaked claims
+2026-08-04 03:54:45,280 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M6642: 2 / 6 claims
+2026-08-04 03:54:45,644 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M6372: 1 leaked claims
+2026-08-04 03:54:46,752 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M9590: 1 / 4 claims
+2026-08-04 03:54:47,245 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M6372: 5 / 6 claims
+2026-08-04 03:54:48,662 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M7494: 1 leaked claims
+2026-08-04 03:54:48,886 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M9744: 1 / 8 claims
+2026-08-04 03:54:50,364 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M9918: 1 / 5 claims
+2026-08-04 03:54:50,877 WARNING LeakageEvaluationFramework.generation.methods.b4_timespec — B4 aggregation parse failure for autocast_M5512
+2026-08-04 03:54:50,958 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M7494: 3 / 6 claims
+2026-08-04 03:54:52,265 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M9939: 3 / 5 claims
+2026-08-04 03:55:19,152 INFO LeakageEvaluationFramework.generation.methods.b4_timespec — B4 regen cycle 1 for autocast_M9918: 1 leaked claims
+2026-08-04 03:55:20,936 INFO LeakageEvaluationFramework.generation.methods._supervisor — Search escalation for autocast_M9918: 1 / 5 claims
+2026-08-04 03:55:32,574 INFO LeakageEvaluationFramework.generation.runner — Wrote 200 completions for method b4 (89.5% parse success)
+[e3] b3/b4 generation done Tue Aug  4 03:55:32 AM UTC 2026
+[e3] eval snapshot_rag start Tue Aug  4 03:55:32 AM UTC 2026
+Skipping instance autocast_G1908: parse_success=False evidence_count=0
+Skipping instance autocast_G1916: parse_success=False evidence_count=0
+Skipping instance autocast_G204: parse_success=False evidence_count=0
+Skipping instance autocast_G2066: parse_success=False evidence_count=0
+Skipping instance autocast_G2102: parse_success=False evidence_count=0
+Skipping instance autocast_G27: parse_success=False evidence_count=0
+Skipping instance autocast_M10568: parse_success=False evidence_count=0
+Skipping instance autocast_M1457: parse_success=False evidence_count=0
+Skipping instance autocast_M1581: parse_success=False evidence_count=0
+Skipping instance autocast_M170: parse_success=False evidence_count=0
+Skipping instance autocast_M2971: parse_success=False evidence_count=0
+Skipping instance autocast_M3083: parse_success=False evidence_count=0
+Skipping instance autocast_M3145: parse_success=False evidence_count=0
+Skipping instance autocast_M385: parse_success=False evidence_count=0
+Skipping instance autocast_M534: parse_success=False evidence_count=0
+Skipping instance autocast_M5396: parse_success=False evidence_count=0
+Skipping instance autocast_M5434: parse_success=False evidence_count=0
+Skipping instance autocast_M6393: parse_success=False evidence_count=0
+Skipping instance autocast_M6688: parse_success=False evidence_count=0
+Skipping instance autocast_M7494: parse_success=False evidence_count=0
+Skipping instance autocast_M9918: parse_success=False evidence_count=0
+Wrote leakage evaluation to /home/pcv1327/RL-Based-Temporal-Prevention/LeakageEvaluationFramework copy/camera_ready/e3_snapshot/eval/snapshot_rag
+{'n_instances': 178, 'olr': {'mean': 0.029962546816479398, 'std': 0.08812690498823496}, 'shapley_dclr': {'mean': 0.03658690340874703, 'std': 0.13573011340915253}, 'performance': {'mean': 0.7871584269662923, 'std': 0.33460831872875385}, 'full_reconstruction_gap': {'mean': 0.16986516853932582, 'std': 0.24868709225321942}, 'faithfulness_counts': {'high_faithfulness': 67, 'medium_faithfulness': 49, 'low_faithfulness': 62, 'not_applicable': 0}, 'faithfulness_rate_high_or_medium': 0.651685393258427, 'shapley_computed': 178, 'shapley_skipped_no_leakage': 0, 'total_coalitions_evaluated': 6324, 'total_model_calls': 6146, 'total_claims': 856, 'total_leaked_claims': 24}
+[e3] eval snapshot_rag done Tue Aug  4 04:12:01 AM UTC 2026
+[e3] eval b3 start Tue Aug  4 04:12:01 AM UTC 2026
+Skipping instance autocast_G195: parse_success=False evidence_count=0
+Skipping instance autocast_G2102: parse_success=False evidence_count=0
+Skipping instance autocast_G2106: parse_success=False evidence_count=0
+Skipping instance autocast_G22: parse_success=False evidence_count=0
+Skipping instance autocast_G37: parse_success=False evidence_count=0
+Skipping instance autocast_G540: parse_success=False evidence_count=0
+Skipping instance autocast_M10623: parse_success=False evidence_count=0
+Skipping instance autocast_M172: parse_success=False evidence_count=0
+Skipping instance autocast_M2706: parse_success=False evidence_count=0
+Skipping instance autocast_M278: parse_success=False evidence_count=0
+Skipping instance autocast_M2794: parse_success=False evidence_count=0
+Skipping instance autocast_M3590: parse_success=False evidence_count=0
+Skipping instance autocast_M3859: parse_success=False evidence_count=0
+Skipping instance autocast_M457: parse_success=False evidence_count=0
+Skipping instance autocast_M5434: parse_success=False evidence_count=0
+Skipping instance autocast_M6303: parse_success=False evidence_count=0
+Skipping instance autocast_M6338: parse_success=False evidence_count=0
+Skipping instance autocast_M6442: parse_success=False evidence_count=0
+Skipping instance autocast_M7382: parse_success=False evidence_count=0
+Skipping instance autocast_M7987: parse_success=False evidence_count=0
+Wrote leakage evaluation to /home/pcv1327/RL-Based-Temporal-Prevention/LeakageEvaluationFramework copy/camera_ready/e3_snapshot/eval/b3
+{'n_instances': 180, 'olr': {'mean': 0.025529100529100526, 'std': 0.08323163161119848}, 'shapley_dclr': {'mean': 0.02975496082175463, 'std': 0.10776216471259595}, 'performance': {'mean': 0.8135322288333333, 'std': 0.3394978526107437}, 'full_reconstruction_gap': {'mean': 0.11922222222222223, 'std': 0.22376527894665257}, 'faithfulness_counts': {'high_faithfulness': 83, 'medium_faithfulness': 56, 'low_faithfulness': 41, 'not_applicable': 0}, 'faithfulness_rate_high_or_medium': 0.7722222222222223, 'shapley_computed': 180, 'shapley_skipped_no_leakage': 0, 'total_coalitions_evaluated': 11032, 'total_model_calls': 10852, 'total_claims': 986, 'total_leaked_claims': 23}
+[e3] eval b3 done Tue Aug  4 04:35:20 AM UTC 2026
+[e3] eval b4 start Tue Aug  4 04:35:20 AM UTC 2026
+Skipping instance autocast_G195: parse_success=False evidence_count=0
+Skipping instance autocast_G2102: parse_success=False evidence_count=0
+Skipping instance autocast_G2106: parse_success=False evidence_count=0
+Skipping instance autocast_G22: parse_success=False evidence_count=0
+Skipping instance autocast_G37: parse_success=False evidence_count=0
+Skipping instance autocast_G540: parse_success=False evidence_count=0
+Skipping instance autocast_G308: parse_success=False evidence_count=0
+Skipping instance autocast_M10623: parse_success=False evidence_count=0
+Skipping instance autocast_M172: parse_success=False evidence_count=0
+Skipping instance autocast_M2706: parse_success=False evidence_count=0
+Skipping instance autocast_M278: parse_success=False evidence_count=0
+Skipping instance autocast_M2794: parse_success=False evidence_count=0
+Skipping instance autocast_M3590: parse_success=False evidence_count=0
+Skipping instance autocast_M3859: parse_success=False evidence_count=0
+Skipping instance autocast_M457: parse_success=False evidence_count=0
+Skipping instance autocast_M5434: parse_success=False evidence_count=0
+Skipping instance autocast_M6303: parse_success=False evidence_count=0
+Skipping instance autocast_M6338: parse_success=False evidence_count=0
+Skipping instance autocast_M6442: parse_success=False evidence_count=0
+Skipping instance autocast_M7382: parse_success=False evidence_count=0
+Skipping instance autocast_M7987: parse_success=False evidence_count=0
+Wrote leakage evaluation to /home/pcv1327/RL-Based-Temporal-Prevention/LeakageEvaluationFramework copy/camera_ready/e3_snapshot/eval/b4
+{'n_instances': 179, 'olr': {'mean': 0.016679968076616123, 'std': 0.07088319403091504}, 'shapley_dclr': {'mean': 0.01724596765232617, 'std': 0.07770144304358614}, 'performance': {'mean': 0.8111167597765364, 'std': 0.3366648285701724}, 'full_reconstruction_gap': {'mean': 0.135195530726257, 'std': 0.24593627744638047}, 'faithfulness_counts': {'high_faithfulness': 83, 'medium_faithfulness': 50, 'low_faithfulness': 46, 'not_applicable': 0}, 'faithfulness_rate_high_or_medium': 0.7430167597765364, 'shapley_computed': 179, 'shapley_skipped_no_leakage': 0, 'total_coalitions_evaluated': 10856, 'total_model_calls': 10677, 'total_claims': 977, 'total_leaked_claims': 15}
+[e3] eval b4 done Tue Aug  4 04:58:09 AM UTC 2026
+[e3] analysis start Tue Aug  4 04:58:09 AM UTC 2026
+matched questions: 200, common across arms: 159
+{
+  "n_matched": 200,
+  "n_common": 159,
+  "methods": {
+    "snapshot_rag": {
+      "performance": {
+        "mean": 0.7898,
+        "ci95": [
+          0.7365,
+          0.8402
+        ],
+        "n": 159
+      },
+      "olr": {
+        "mean": 0.0291,
+        "ci95": [
+          0.0165,
+          0.0438
+        ],
+        "n": 159
+      },
+      "shapley_dclr": {
+        "mean": 0.0363,
+        "ci95": [
+          0.0172,
+          0.0601
+        ],
+        "n": 159
+      },
+      "full_reconstruction_gap": {
+        "mean": 0.1619,
+        "ci95": [
+          0.1269,
+          0.1995
+        ],
+        "n": 159
+      },
+      "high_medium_faithfulness_rate": 0.6478
+    },
+    "b3": {
+      "performance": {
+        "mean": 0.803,
+        "ci95": [
+          0.7458,
+          0.8559
+        ],
+        "n": 159
+      },
+      "olr": {
+        "mean": 0.027,
+        "ci95": [
+          0.0144,
+          0.0413
+        ],
+        "n": 159
+      },
+      "shapley_dclr": {
+        "mean": 0.0325,
+        "ci95": [
+          0.0164,
+          0.0519
+        ],
+        "n": 159
+      },
+      "full_reconstruction_gap": {
+        "mean": 0.1193,
+        "ci95": [
+          0.086,
+          0.1555
+        ],
+        "n": 159
+      },
+      "high_medium_faithfulness_rate": 0.7673
+    },
+    "b4": {
+      "performance": {
+        "mean": 0.8073,
+        "ci95": [
+          0.7534,
+          0.8577
+        ],
+        "n": 159
+      },
+      "olr": {
+        "mean": 0.0166,
+        "ci95": [
+          0.0066,
+          0.029
+        ],
+        "n": 159
+      },
+      "shapley_dclr": {
+        "mean": 0.0183,
+        "ci95": [
+          0.0069,
+          0.0324
+        ],
+        "n": 159
+      },
+      "full_reconstruction_gap": {
+        "mean": 0.1293,
+        "ci95": [
+          0.0934,
+          0.1681
+        ],
+        "n": 159
+      },
+      "high_medium_faithfulness_rate": 0.7484
+    }
+  }
+}
+wrote /home/pcv1327/RL-Based-Temporal-Prevention/LeakageEvaluationFramework copy/camera_ready/e3_snapshot/comparison.json
+== snapshot_rag: n=178 corr={'pearson_r': np.float64(0.8755), 'spearman_rho': np.float64(0.9976)} loo_cov=1.0 divergent_pairs=25
+== b3: n=180 corr={'pearson_r': np.float64(0.912), 'spearman_rho': np.float64(0.9987)} loo_cov=1.0 divergent_pairs=8
+== b4: n=179 corr={'pearson_r': np.float64(0.9562), 'spearman_rho': np.float64(0.9996)} loo_cov=1.0 divergent_pairs=1
+wrote /home/pcv1327/RL-Based-Temporal-Prevention/LeakageEvaluationFramework copy/camera_ready/e5_shapley/e3_binary_metric_comparison.json
+[e3] ALL DONE Tue Aug  4 04:58:23 AM UTC 2026

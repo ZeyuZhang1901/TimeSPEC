@@ -1,0 +1,34 @@
+{
+  "n_total": 100,
+  "n_human_labeled": 46,
+  "stratum_sizes": {
+    "A": 4,
+    "B": 22,
+    "C": 74
+  },
+  "audited_auto_c": 20,
+  "audited_auto_c_human_counts": {
+    "A": 18,
+    "C": 2
+  },
+  "weighted_estimate": {
+    "A": 0.7060000000000001,
+    "B": 0.22,
+    "C": 0.07400000000000001
+  },
+  "weighted_95_percent_intervals": {
+    "A": {
+      "low": 0.5572317272552729,
+      "high": 0.7593792384517267
+    },
+    "B": {
+      "low": 0.22,
+      "high": 0.33923629286625057
+    },
+    "C": {
+      "low": 0.020620761548273372,
+      "high": 0.22276827274472707
+    }
+  },
+  "scope": "Single-annotator stratified audit: all automatic A/B items plus a random 20-of-74 sample of automatic C items. No inter-annotator kappa."
+}

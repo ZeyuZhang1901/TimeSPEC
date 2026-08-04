@@ -47,7 +47,7 @@ def generate(
             build_generation_prompt(inst, context_block=context_map.get(inst.instance_id, ""))
             for inst in instances
         ]
-        phase1_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size)
+        phase1_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size, stage="phase1b_generation")
 
     ts = datetime.now(timezone.utc).isoformat()
     completions: list[Completion] = []

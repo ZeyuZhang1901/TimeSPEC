@@ -52,7 +52,7 @@ class LlmDateVerifier:
             task=first.task,
             target_description=first.target_description,
         )
-        text = await self.client.call_text(prompt, system=TAXONOMY_DATE_SYSTEM_PROMPT)
+        text = await self.client.call_text(prompt, system=TAXONOMY_DATE_SYSTEM_PROMPT, stage="supervisor_taxonomy")
         by_id = _parse_llm_decisions(text)
         if self.audit_logger is not None:
             self.audit_logger.log_taxonomy_batch(

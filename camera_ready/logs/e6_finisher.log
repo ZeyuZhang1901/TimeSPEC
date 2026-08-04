@@ -1,0 +1,14 @@
+component              stage                     calls     p_tok     c_tok    cost$  lat_mean
+coalition_predictor    shapley_coalition         17491   4522005    168897    0.959       0.7
+generator              aggregation                  47     41763     23128    0.034      5.02
+generator              phase1a_generation          100     80117     72078    0.101      8.96
+generator              phase1b_generation          100    165678     72758    0.124      7.21
+generator              regeneration                 50     74938     37339    0.058      7.47
+judge_client           query_generation            100     39605      9017    0.023      0.99
+judge_client           search_reverify             107     45620      8152    0.024      0.88
+judge_client           supervisor_taxonomy         578    700609    263131    0.570      1.89
+perplexity             rag_retrieval               497     17731    194635    2.698      5.54
+perplexity             search_escalation           107      3949     17181    0.556      3.34
+TOTAL: $5.147
+wrote camera_ready/e6_cost/cost_table.json
+[finisher] cost table done Tue Aug  4 03:26:10 AM UTC 2026

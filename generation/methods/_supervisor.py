@@ -164,7 +164,7 @@ def _search_and_reverify(
     for decision in decisions:
         try:
             results = search_client.search(
-                [decision.claim_text], cutoff_date=None, max_results=3
+                [decision.claim_text], cutoff_date=None, max_results=3, stage="search_escalation"
             )
             if not results:
                 updated.append(decision)
@@ -181,7 +181,7 @@ def _search_and_reverify(
                 "Based on these search results, what is the earliest reliable public availability date for this claim? "
                 "Return JSON only."
             )
-            raw = asyncio.run(or_client.call_text(prompt, system=_SEARCH_REVERIFY_SYSTEM))
+            raw = asyncio.run(or_client.call_text(prompt, system=_SEARCH_REVERIFY_SYSTEM, stage="search_reverify"))
             reverified = _parse_reverify_response(decision, raw, temporal_cutoff)
             updated.append(reverified)
         except Exception as exc:

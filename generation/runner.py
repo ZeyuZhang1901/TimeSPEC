@@ -156,7 +156,7 @@ def run_all_methods(
         else:
             logger.info("Running Phase 1A (no-RAG) for %d instances …", len(instances))
             prompt_inputs = [build_generation_prompt(inst) for inst in instances]
-            phase1a_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size)
+            phase1a_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size, stage="phase1a_generation")
             _write_phase1_jsonl(phase1a_path, instances, phase1a_texts)
         _validate_phase1(phase1a_texts, "Phase 1A", instances)
 
@@ -179,7 +179,7 @@ def run_all_methods(
                 build_generation_prompt(inst, context_block=context_map.get(inst.instance_id, ""))
                 for inst in instances
             ]
-            phase1b_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size)
+            phase1b_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size, stage="phase1b_generation")
             _write_phase1_jsonl(phase1b_path, instances, phase1b_texts)
         _validate_phase1(phase1b_texts, "Phase 1B", instances)
 
@@ -336,7 +336,7 @@ def _run_method(
 
     if method == "b4":
         from LeakageEvaluationFramework.generation.methods import b4_timespec
-        from QualityGatedExperiment.src.quality_gated_experiment.rag_evaluate import PerplexitySearchClient
+        from LeakageEvaluationFramework.generation.perplexity import PerplexitySearchClient
         search_client = PerplexitySearchClient(cfg.perplexity_api_key)
         return b4_timespec.generate(
             instances, cfg, context_map=context_map,
@@ -364,7 +364,7 @@ def _build_context_map(
     The search_cache is updated under a lock for thread safety.
     """
 
-    from QualityGatedExperiment.src.quality_gated_experiment.rag_evaluate import (
+    from LeakageEvaluationFramework.generation.perplexity import (
         PerplexitySearchClient,
         retrieve_and_build_context,
     )
@@ -445,7 +445,7 @@ def _generate_queries(
     import asyncio
 
     prompt = build_query_generation_prompt(inst)
-    text = asyncio.run(or_client.call_text(prompt))
+    text = asyncio.run(or_client.call_text(prompt, stage="query_generation"))
     return _parse_query_json(text)
 
 

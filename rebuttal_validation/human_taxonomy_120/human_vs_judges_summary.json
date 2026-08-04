@@ -1,0 +1,42 @@
+{
+  "anthropic/claude-sonnet-4#run1": {
+    "all_120_accuracy": 0.9833333333333333,
+    "balanced_90_accuracy": 0.9777777777777777,
+    "balanced_90_macro_f1": 0.9775533108866442,
+    "balanced_90_kappa": 0.9749930536260072,
+    "balanced_90_tier_accuracy": 0.9777777777777777,
+    "balanced_90_tier_kappa": 0.962025316455696
+  },
+  "google/gemini-3.1-flash-lite#run1": {
+    "all_120_accuracy": 0.5916666666666667,
+    "balanced_90_accuracy": 0.7444444444444445,
+    "balanced_90_macro_f1": 0.7061798674069389,
+    "balanced_90_kappa": 0.7125798389336295,
+    "balanced_90_tier_accuracy": 0.8555555555555555,
+    "balanced_90_tier_kappa": 0.770227808326787
+  },
+  "google/gemini-3.1-flash-lite#run2": {
+    "all_120_accuracy": 0.5666666666666667,
+    "balanced_90_accuracy": 0.7444444444444445,
+    "balanced_90_macro_f1": 0.7061798674069389,
+    "balanced_90_kappa": 0.7125798389336295,
+    "balanced_90_tier_accuracy": 0.8555555555555555,
+    "balanced_90_tier_kappa": 0.770227808326787
+  },
+  "google/gemini-3.1-flash-lite#run3": {
+    "all_120_accuracy": 0.6416666666666667,
+    "balanced_90_accuracy": 0.8111111111111111,
+    "balanced_90_macro_f1": 0.7688387139367532,
+    "balanced_90_kappa": 0.7872044506258693,
+    "balanced_90_tier_accuracy": 0.9222222222222223,
+    "balanced_90_tier_kappa": 0.8714285714285716
+  },
+  "moonshotai/kimi-k2.5#run1": {
+    "all_120_accuracy": 0.925,
+    "balanced_90_accuracy": 0.9555555555555556,
+    "balanced_90_macro_f1": 0.951010101010101,
+    "balanced_90_kappa": 0.9499722067815454,
+    "balanced_90_tier_accuracy": 0.9555555555555556,
+    "balanced_90_tier_kappa": 0.9229452054794521
+  }
+}

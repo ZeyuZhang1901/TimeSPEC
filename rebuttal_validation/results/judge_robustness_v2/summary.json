@@ -1,0 +1,201 @@
+{
+  "primary_model": "google/gemini-3.1-flash-lite",
+  "runs": {
+    "google/gemini-3.1-flash-lite#run1": {
+      "n": 120,
+      "taxonomy": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "per_class": {
+          "C0": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "C1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "C2": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "C3": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "C4": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "C5": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "C6": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "C7": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "C8": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          }
+        },
+        "confusion": {
+          "C0": {
+            "C0": 10,
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          },
+          "C1": {
+            "C0": 0,
+            "C1": 10,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          },
+          "C2": {
+            "C0": 0,
+            "C1": 0,
+            "C2": 10,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          },
+          "C3": {
+            "C0": 0,
+            "C1": 0,
+            "C2": 0,
+            "C3": 10,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          },
+          "C4": {
+            "C0": 0,
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 10,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          },
+          "C5": {
+            "C0": 0,
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 10,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          },
+          "C6": {
+            "C0": 0,
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 10,
+            "C7": 0,
+            "C8": 0
+          },
+          "C7": {
+            "C0": 0,
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 10,
+            "C8": 0
+          },
+          "C8": {
+            "C0": 0,
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 10
+          }
+        }
+      },
+      "tier_accuracy": 1.0,
+      "leakage": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 64,
+        "fp": 0,
+        "tn": 56,
+        "fn": 0
+      },
+      "date_boundary": {
+        "n": 30,
+        "mean_absolute_days": 0.0,
+        "median_absolute_days": 0,
+        "within_7_days": 1.0,
+        "within_30_days": 1.0
+      }
+    }
+  },
+  "agreement": {
+    "repeatability": {
+      "category": 1.0,
+      "is_leaked": 1.0,
+      "effective_source_date": 1.0
+    },
+    "cross_judge_vs_primary": {}
+  },
+  "usage": {
+    "requests": 26,
+    "prompt_tokens": 28122,
+    "completion_tokens": 9161,
+    "total_tokens": 37283
+  }
+}

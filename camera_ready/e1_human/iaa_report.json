@@ -1,0 +1,158 @@
+{
+  "n_claims": 120,
+  "annotator2_consistency_errors": [],
+  "all_120": {
+    "a1_vs_a2_category": {
+      "n": 120,
+      "accuracy": 0.975,
+      "cohen_kappa": 0.97
+    },
+    "a1_vs_a2_tier": {
+      "n": 120,
+      "accuracy": 0.9833,
+      "cohen_kappa": 0.9661
+    },
+    "a1_vs_gold_category": {
+      "n": 120,
+      "accuracy": 0.975,
+      "cohen_kappa": 0.97
+    },
+    "a2_vs_gold_category": {
+      "n": 120,
+      "accuracy": 0.9833,
+      "cohen_kappa": 0.98
+    },
+    "a1_vs_gold_tier": {
+      "n": 120,
+      "accuracy": 0.9833,
+      "cohen_kappa": 0.9661
+    },
+    "a2_vs_gold_tier": {
+      "n": 120,
+      "accuracy": 1.0,
+      "cohen_kappa": 1.0
+    },
+    "a2_vs_gold_leakage": {
+      "n": 120,
+      "accuracy": 0.9833,
+      "cohen_kappa": 0.9664
+    },
+    "a1_a2_confusion_offdiagonal": {
+      "a1=C4|a2=C1": 2,
+      "a1=C1|a2=C0": 1
+    },
+    "disagreements": [
+      {
+        "original_id": "c1_03",
+        "a1": "C1",
+        "a2": "C0",
+        "gold": "C1",
+        "claim": "The chemical symbol for gold is Au."
+      },
+      {
+        "original_id": "c1_05",
+        "a1": "C4",
+        "a2": "C1",
+        "gold": "C1",
+        "claim": "The Pacific Ocean is Earth's largest ocean."
+      },
+      {
+        "original_id": "c1_06",
+        "a1": "C4",
+        "a2": "C1",
+        "gold": "C1",
+        "claim": "Mount Everest is Earth's highest mountain above sea level."
+      }
+    ]
+  },
+  "balanced_90": {
+    "a1_vs_a2_category": {
+      "n": 90,
+      "accuracy": 0.9667,
+      "cohen_kappa": 0.9625
+    },
+    "a1_vs_a2_tier": {
+      "n": 90,
+      "accuracy": 0.9778,
+      "cohen_kappa": 0.962
+    },
+    "a1_vs_gold_category": {
+      "n": 90,
+      "accuracy": 0.9667,
+      "cohen_kappa": 0.9625
+    },
+    "a2_vs_gold_category": {
+      "n": 90,
+      "accuracy": 0.9778,
+      "cohen_kappa": 0.975
+    },
+    "a1_vs_gold_tier": {
+      "n": 90,
+      "accuracy": 0.9778,
+      "cohen_kappa": 0.962
+    },
+    "a2_vs_gold_tier": {
+      "n": 90,
+      "accuracy": 1.0,
+      "cohen_kappa": 1.0
+    },
+    "a2_vs_gold_leakage": {
+      "n": 90,
+      "accuracy": 0.9778,
+      "cohen_kappa": 0.955
+    },
+    "a1_a2_confusion_offdiagonal": {
+      "a1=C4|a2=C1": 2,
+      "a1=C1|a2=C0": 1
+    },
+    "disagreements": [
+      {
+        "original_id": "c1_03",
+        "a1": "C1",
+        "a2": "C0",
+        "gold": "C1",
+        "claim": "The chemical symbol for gold is Au."
+      },
+      {
+        "original_id": "c1_05",
+        "a1": "C4",
+        "a2": "C1",
+        "gold": "C1",
+        "claim": "The Pacific Ocean is Earth's largest ocean."
+      },
+      {
+        "original_id": "c1_06",
+        "a1": "C4",
+        "a2": "C1",
+        "gold": "C1",
+        "claim": "Mount Everest is Earth's highest mountain above sea level."
+      }
+    ]
+  },
+  "a2_confidence_distribution": {
+    "high": 106,
+    "medium": 14
+  },
+  "a2_category_distribution": {
+    "C6": 40,
+    "C0": 11,
+    "C1": 9,
+    "C2": 9,
+    "C3": 11,
+    "C4": 10,
+    "C5": 10,
+    "C7": 10,
+    "C8": 10
+  },
+  "a1_category_distribution": {
+    "C6": 40,
+    "C0": 10,
+    "C1": 8,
+    "C4": 12,
+    "C2": 9,
+    "C3": 11,
+    "C5": 10,
+    "C7": 10,
+    "C8": 10
+  }
+}

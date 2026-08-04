@@ -1,0 +1,7 @@
+{
+  "model": "qwen/qwen3.5-35b-a3b",
+  "n_questions": 8,
+  "parse_success": 8,
+  "generation_wall_seconds": 48.46148595912382,
+  "snapshot_coverage_of_original_12": 0.6666666666666666
+}

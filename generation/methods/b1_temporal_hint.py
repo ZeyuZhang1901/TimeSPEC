@@ -45,7 +45,7 @@ def generate(
             presence_penalty=cfg.presence_penalty,
         )
         prompt_inputs = [build_generation_prompt(inst) for inst in instances]
-        phase1_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size)
+        phase1_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size, stage="phase1a_generation")
 
     completions: list[Completion] = []
     ts = datetime.now(timezone.utc).isoformat()

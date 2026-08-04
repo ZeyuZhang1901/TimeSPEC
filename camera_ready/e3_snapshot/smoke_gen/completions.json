@@ -1,0 +1,191 @@
+[
+  {
+    "instance_id": "autocast_G10",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "Russia imposed a food embargo on imports from the US, EU, Canada, Australia, and Norway in August 2014 as retaliation for western sanctions.",
+        "source_date": "2014-08-07"
+      },
+      {
+        "id": 2,
+        "fact": "In early August 2015, Russia extended its food embargo for another year and added Iceland, Albania, Montenegro, and Liechtenstein to the list of embargoed countries.",
+        "source_date": "2015-08-01"
+      },
+      {
+        "id": 3,
+        "fact": "As of September 2015, there were no public announcements or official statements indicating that Russia intended to lift any part of its food embargo before August 2016.",
+        "source_date": "2015-09-08"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Russia imposed a food embargo on the US, EU, Canada, Australia, and Norway in August 2014 [1]. In August 2015, Russia extended this embargo for another year and expanded it to include Iceland, Albania, Montenegro, and Liechtenstein [2]. As of the latest available information in September 2015, there was no indication that Russia planned to lift any part of the embargo before August 2016 [3]. Given the extension in August 2015 and the lack of any signals suggesting a reversal, it is highly unlikely that Russia would officially lift any part of the embargo before the specified date.",
+    "probability": 0.05,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"Russia imposed a food embargo on imports from the US, EU, Canada, Australia, and Norway in August 2014 as retaliation for western sanctions.\",\n      \"source_date\": \"2014-08-07\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"In early August 2015, Russia extended its food embargo for another year and added Iceland, Albania, Montenegro, and Liechtenstein to the list of embargoed countries.\",\n      \"source_date\": \"2015-08-01\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"As of September 2015, there were no public announcements or official statements indicating that Russia intended to lift any part of its food embargo before August 2016.\",\n      \"source_date\": \"2015-09-08\"\n    }\n  ],\n  \"reasoning\": \"Russia imposed a food embargo on the US, EU, Canada, Australia, and Norway in August 2014 [1]. In August 2015, Russia extended this embargo for another year and expanded it to include Iceland, Albania, Montenegro, and Liechtenstein [2]. As of the latest available information in September 2015, there was no indication that Russia planned to lift any part of the embargo before August 2016 [3]. Given the extension in August 2015 and the lack of any signals suggesting a reversal, it is highly unlikely that Russia would officially lift any part of the embargo before the specified date.\",\n  \"probability_yes\": 0.05,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:27:08.871540+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_G106",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "In 2015, there were over one million refugees and migrants arriving in Europe by sea, with UNHCR data indicating approximately 1.8 million arrivals for that year.",
+        "source_date": "2016-01-15"
+      },
+      {
+        "id": 2,
+        "fact": "On February 11, 2016, NATO announced the deployment of its fleet to the Aegean Sea to monitor and stop illegal crossings from Turkey to Greece.",
+        "source_date": "2016-02-11"
+      },
+      {
+        "id": 3,
+        "fact": "The European Union and Turkey signed a deal on March 18, 2016, aimed at ending irregular migration flows across the Aegean Sea, which included provisions for returning migrants who did not apply for asylum or whose applications were rejected.",
+        "source_date": "2016-03-18"
+      },
+      {
+        "id": 4,
+        "fact": "Prior to the EU-Turkey deal, the number of daily arrivals in the Aegean had peaked at over 5,000 people per day in early 2016 before the agreement was finalized.",
+        "source_date": "2016-03-10"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "While 2015 saw over 1.8 million arrivals by sea [1], significant policy changes were implemented in early 2016 to drastically reduce these numbers. The deployment of the NATO fleet in February 2016 marked an intensified effort to intercept boats before they reached Greek waters [2]. Crucially, the EU-Turkey statement of March 18, 2016, established a mechanism to return migrants crossing illegally back to Turkey, effectively closing the primary route used during the previous peak [3]. Historical data shows that prior to this deal, daily crossings were extremely high, but the implementation of the deal led to an immediate and sharp decline in arrivals [4]. Given the timing of the deal (March) and the subsequent reduction in flow, it is highly probable that the total annual figure would fall well below the 1 million mark seen in 2015.",
+    "probability": 0.0,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"In 2015, there were over one million refugees and migrants arriving in Europe by sea, with UNHCR data indicating approximately 1.8 million arrivals for that year.\",\n      \"source_date\": \"2016-01-15\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"On February 11, 2016, NATO announced the deployment of its fleet to the Aegean Sea to monitor and stop illegal crossings from Turkey to Greece.\",\n      \"source_date\": \"2016-02-11\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"The European Union and Turkey signed a deal on March 18, 2016, aimed at ending irregular migration flows across the Aegean Sea, which included provisions for returning migrants who did not apply for asylum or whose applications were rejected.\",\n      \"source_date\": \"2016-03-18\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"Prior to the EU-Turkey deal, the number of daily arrivals in the Aegean had peaked at over 5,000 people per day in early 2016 before the agreement was finalized.\",\n      \"source_date\": \"2016-03-10\"\n    }\n  ],\n  \"reasoning\": \"While 2015 saw over 1.8 million arrivals by sea [1], significant policy changes were implemented in early 2016 to drastically reduce these numbers. The deployment of the NATO fleet in February 2016 marked an intensified effort to intercept boats before they reached Greek waters [2]. Crucially, the EU-Turkey statement of March 18, 2016, established a mechanism to return migrants crossing illegally back to Turkey, effectively closing the primary route used during the previous peak [3]. Historical data shows that prior to this deal, daily crossings were extremely high, but the implementation of the deal led to an immediate and sharp decline in arrivals [4]. Given the timing of the deal (March) and the subsequent reduction in flow, it is highly probable that the total annual figure would fall well below the 1 million mark seen in 2015.\",\n  \"probability_yes\": 0.0,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:27:08.871540+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_G127",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [],
+    "prediction": "",
+    "reasoning": "",
+    "probability": null,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"On March 18, 2016, Colombian President Juan Manuel Santos and FARC senior negotiators confirmed that the agreed deadline of March 23 to sign a final peace accord could not be met.\",\n      \"source_date\": \"2016-03-18\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"In the same announcement on March 18, 2016, the consensus from the negotiation table in Havana was that an agreement would be reached within the next month.\",\n      \"source_date\": \"2016-03-18\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"As of March 18, 2016, there were still parts of the six-point agenda to be discussed and fine print to be ironed out before both parties could sign the accord.\",\n      \"source_date\": \"2016-03-18\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"The peace negotiations between the Colombian government and FARC had been ongoing since 2012.\",\n      \"source_date\": \"2012-08-29\"\n    }\n  ],\n  \"reasoning: \"\n  \"Based on the evidence, the parties explicitly stated on March 18, 2016, that they would not meet the March 23 deadline [1]. However, the same source indicates that the consensus among negotiators was that an agreement would be reached 'within the next month' [2]. Since the statement was made on March 18, 'within the next month\" implies a target date sometime between March 18 and mid-to-late April 2016. Given that the deadline of May 1, 2016, is approximately one month after the March 18 statement, and the expressed consensus was to finish within that timeframe, it is highly probable the agreement would be signed before May 1, 2016. The remaining tasks (six-point agenda and fine print) were described as the only obstacles [3], and the timeline provided by the negotiators suggests they anticipated resolving these before the end of April.\"\n  \"probability_yes\": 0.85,\n  \"prediction\": \"yes\"\n}",
+    "parse_success": false,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:27:08.871540+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_G130",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "On October 12, 2016, state media reported that twelve people had died in clashes between armed men and troops in the Maungdaw township of Rakhine State, including four soldiers and one attacker killed in Pyaungpit village.",
+        "source_date": "2016-10-12"
+      },
+      {
+        "id": 2,
+        "fact": "On October 12, 2016, the Global New Light of Myanmar reported that troops found seven dead bodies with rudimentary weapons in the village of Taung Paing Nyar following fighting.",
+        "source_date": "2016-10-12"
+      },
+      {
+        "id": 3,
+        "fact": "On October 12, 2016, reports confirmed that nine police officers were killed on Sunday, October 9, 2016, in coordinated attacks on three border posts in the region.",
+        "source_date": "2016-10-12"
+      },
+      {
+        "id": 4,
+        "fact": "On October 11, 2016, the UN's special advisor on Burma, Vijay Nambiar, urged restraint regarding the unrest in Rakhine State, noting the risk of a repeat of the 2012 sectarian violence.",
+        "source_date": "2016-10-11"
+      },
+      {
+        "id": 5,
+        "fact": "The Early Warning Project (EWP) did not find evidence of a new mass killing episode in Myanmar in 2016, as noted in their background information for the question.",
+        "source_date": "2016-12-31"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "The evidence indicates a sharp escalation of violence in Rakhine State in October 2016, with at least 12 deaths reported in clashes between troops and armed men, including the killing of nine police officers and four soldiers [1][2][3]. While the violence involved armed men attacking troops and resulted in multiple deaths, the Early Warning Project (EWP) background information explicitly states that they did not find evidence of a new mass killing episode in Myanmar in 2016 [5]. The question asks specifically about a 'new episode of mass killing' as defined by the EWP, which distinguishes between general violence and a specific episode of mass killing. Given the EWP's determination that no such new episode occurred in 2016, and the cutoff date for the question is January 1, 2017, the available evidence suggests the threshold for a 'new episode' was not met by the events described.",
+    "probability": 0.1,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"On October 12, 2016, state media reported that twelve people had died in clashes between armed men and troops in the Maungdaw township of Rakhine State, including four soldiers and one attacker killed in Pyaungpit village.\",\n      \"source_date\": \"2016-10-12\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"On October 12, 2016, the Global New Light of Myanmar reported that troops found seven dead bodies with rudimentary weapons in the village of Taung Paing Nyar following fighting.\",\n      \"source_date\": \"2016-10-12\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"On October 12, 2016, reports confirmed that nine police officers were killed on Sunday, October 9, 2016, in coordinated attacks on three border posts in the region.\",\n      \"source_date\": \"2016-10-12\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"On October 11, 2016, the UN's special advisor on Burma, Vijay Nambiar, urged restraint regarding the unrest in Rakhine State, noting the risk of a repeat of the 2012 sectarian violence.\",\n      \"source_date\": \"2016-10-11\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"The Early Warning Project (EWP) did not find evidence of a new mass killing episode in Myanmar in 2016, as noted in their background information for the question.\",\n      \"source_date\": \"2016-12-31\"\n    }\n  ],\n  \"reasoning\": \"The evidence indicates a sharp escalation of violence in Rakhine State in October 2016, with at least 12 deaths reported in clashes between troops and armed men, including the killing of nine police officers and four soldiers [1][2][3]. While the violence involved armed men attacking troops and resulted in multiple deaths, the Early Warning Project (EWP) background information explicitly states that they did not find evidence of a new mass killing episode in Myanmar in 2016 [5]. The question asks specifically about a 'new episode of mass killing' as defined by the EWP, which distinguishes between general violence and a specific episode of mass killing. Given the EWP's determination that no such new episode occurred in 2016, and the cutoff date for the question is January 1, 2017, the available evidence suggests the threshold for a 'new episode' was not met by the events described.\",\n  \"probability_yes\": 0.1,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:27:08.871540+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_G133",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "Google DeepMind's AlphaGo defeated Lee Sedol in the first game of the five-game match on March 9, 2016, in Seoul, South Korea.",
+        "source_date": "2016-03-09"
+      },
+      {
+        "id": 2,
+        "fact": "The match was a best-of-five series where the winner must win at least three games.",
+        "source_date": "2016-03-09"
+      },
+      {
+        "id": 3,
+        "fact": "Following the first game, Demis Hassabis stated that there were four games remaining and that anything could still happen, indicating the series was ongoing and not yet decided.",
+        "source_date": "2016-03-09"
+      },
+      {
+        "id": 4,
+        "fact": "Prior to the match, Lee Sedol expressed confidence in his prospects, aiming for a 5-0 victory.",
+        "source_date": "2016-03-09"
+      },
+      {
+        "id": 5,
+        "fact": "The match schedule included games on March 9, March 10, March 12, March 13, and March 15, 2016.",
+        "source_date": "2016-03-09"
+      }
+    ],
+    "prediction": "yes",
+    "reasoning": "Based on the evidence, AlphaGo had already won the first game of the five-game series on March 9, 2016 [1]. The series required a team to win at least three games to claim victory [2]. At the time of the first game's conclusion, the series was ongoing with four games remaining [3]. While Lee Sedol was confident before the match [4], the fact that AlphaGo had already secured one win and the series was a best-of-five format meant that AlphaGo was in a position to win the match if they won two of the remaining four games. The question asks if AlphaGo will beat Lee Sedol in the match. Since the match was a series and AlphaGo had already won the first game, the outcome of the series was not yet determined at the time of the snapshot, but the trajectory suggested a high probability of an AlphaGo victory given the difficulty of the game for humans. However, strictly speaking, the evidence only confirms the first game win, not the final series result. But the question asks for a prediction based on the context. Given AlphaGo's performance in the first game and the historical context of AI progress, it is highly probable AlphaGo would win the series. The evidence shows AlphaGo won the first game, and the series was best of 5. The prediction is that AlphaGo will win the series.",
+    "probability": 0.95,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"Google DeepMind's AlphaGo defeated Lee Sedol in the first game of the five-game match on March 9, 2016, in Seoul, South Korea.\",\n      \"source_date\": \"2016-03-09\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"The match was a best-of-five series where the winner must win at least three games.\",\n      \"source_date\": \"2016-03-09\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"Following the first game, Demis Hassabis stated that there were four games remaining and that anything could still happen, indicating the series was ongoing and not yet decided.\",\n      \"source_date\": \"2016-03-09\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"Prior to the match, Lee Sedol expressed confidence in his prospects, aiming for a 5-0 victory.\",\n      \"source_date\": \"2016-03-09\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"The match schedule included games on March 9, March 10, March 12, March 13, and March 15, 2016.\",\n      \"source_date\": \"2016-03-09\"\n    }\n  ],\n  \"reasoning\": \"Based on the evidence, AlphaGo had already won the first game of the five-game series on March 9, 2016 [1]. The series required a team to win at least three games to claim victory [2]. At the time of the first game's conclusion, the series was ongoing with four games remaining [3]. While Lee Sedol was confident before the match [4], the fact that AlphaGo had already secured one win and the series was a best-of-five format meant that AlphaGo was in a position to win the match if they won two of the remaining four games. The question asks if AlphaGo will beat Lee Sedol in the match. Since the match was a series and AlphaGo had already won the first game, the outcome of the series was not yet determined at the time of the snapshot, but the trajectory suggested a high probability of an AlphaGo victory given the difficulty of the game for humans. However, strictly speaking, the evidence only confirms the first game win, not the final series result. But the question asks for a prediction based on the context. Given AlphaGo's performance in the first game and the historical context of AI progress, it is highly probable AlphaGo would win the series. The evidence shows AlphaGo won the first game, and the series was best of 5. The prediction is that AlphaGo will win the series.\",\n  \"probability_yes\": 0.95,\n  \"prediction\": \"yes\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:27:08.871540+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  }
+]

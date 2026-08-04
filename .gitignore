@@ -1,27 +1,13 @@
-# Runtime outputs (experiment results, completions, eval artifacts)
-runtime/
-logs/
-
-# Python bytecode
-__pycache__/
-*.pyc
-*.pyo
-
-# Environment / secrets
+# Secrets - never commit
 .env
 .env.*
 
-# Dataset (rebuild from scripts or download separately)
-dataset
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv*/
 
-# OS / editor artifacts
+# OS / editor
 .DS_Store
-*.swp
-*.swo
-*~
-.vscode/
-.idea/
-
-# Test output artifacts
-test_e2e/output/
-test_e2e/leakage_eval_*/
+nohup.out

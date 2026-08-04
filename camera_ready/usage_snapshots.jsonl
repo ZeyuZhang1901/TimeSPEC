@@ -1,0 +1,14 @@
+{"ts": "2026-08-04T02:07:48", "stage": "preflight_baseline", "limit": 2650, "usage": 2373.197057327, "remaining": 276.80294267299996}
+{"ts": "2026-08-04T02:28:40", "stage": "e6_generation_start", "usage": 2373.237044098, "remaining": 276.76295590200016}
+{"ts": "2026-08-04T02:43:00", "stage": "e6_generation_done", "usage": 2373.820115214, "remaining": 276.179884786}
+{"ts": "2026-08-04T02:53:17", "stage": "e6_eval_b1_done", "usage": 2374.148019748, "remaining": 275.851980252}
+{"ts": "2026-08-04T03:03:16", "stage": "e6_eval_b2_done", "usage": 2374.452105754, "remaining": 275.54789424599994}
+{"ts": "2026-08-04T03:05:46", "stage": "e3_snapshot_gen_start", "usage": 2374.540932948, "remaining": 275.45906705200014}
+{"ts": "2026-08-04T03:13:49", "stage": "e6_eval_b3_done", "usage": 2374.838958625, "remaining": 275.16104137499997}
+{"ts": "2026-08-04T03:24:37", "stage": "e6_eval_b4_done", "usage": 2375.266446852, "remaining": 274.7335531479998}
+{"ts": "2026-08-04T03:35:20", "stage": "e3_snapshot_gen_done", "usage": 2375.325369749, "remaining": 274.67463025100005}
+{"ts": "2026-08-04T03:55:32", "stage": "e3_live_gen_done", "usage": 2375.90199274, "remaining": 274.09800726000003}
+{"ts": "2026-08-04T04:12:01", "stage": "e3_eval_snapshot_rag_done", "usage": 2376.372155499, "remaining": 273.6278445009998}
+{"ts": "2026-08-04T04:35:20", "stage": "e3_eval_b3_done", "usage": 2377.152898261, "remaining": 272.8471017390002}
+{"ts": "2026-08-04T04:58:09", "stage": "e3_eval_b4_done", "usage": 2377.927436526, "remaining": 272.07256347400016}
+{"ts": "2026-08-04T04:58:23", "stage": "e3_all_done", "usage": 2377.927436526, "remaining": 272.07256347400016}

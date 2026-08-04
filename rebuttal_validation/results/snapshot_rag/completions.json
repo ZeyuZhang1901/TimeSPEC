@@ -1,0 +1,375 @@
+[
+  {
+    "instance_id": "autocast_G10",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "Russia imposed a food embargo on imports from the US, EU, Canada, Australia, and Norway in August 2014 as retaliation for western sanctions.",
+        "source_date": "2014-08-07"
+      },
+      {
+        "id": 2,
+        "fact": "In early August 2015, Russia extended its food embargo for another year.",
+        "source_date": "2015-08-01"
+      },
+      {
+        "id": 3,
+        "fact": "In early August 2015, Russia added Iceland, Albania, Montenegro, and Liechtenstein to the list of countries subject to the food embargo.",
+        "source_date": "2015-08-01"
+      },
+      {
+        "id": 4,
+        "fact": "As of the last update on September 8, 2015, there was no public announcement indicating that Russia had lifted any part of the food embargo on the specified countries.",
+        "source_date": "2015-09-08"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Russia imposed the food embargo in August 2014 [1] and extended it for another year in early August 2015 [2], while simultaneously expanding the list of embargoed nations to include Iceland, Albania, Montenegro, and Liechtenstein [3]. The extension in August 2015 was explicitly for a full year, meaning the embargo was set to remain in place until at least August 2016. As of the latest available information in September 2015, there was no indication of a partial or full lift of the embargo before the August 6, 2016 deadline [4]. Given the explicit one-year extension and the lack of any announced policy reversal, it is highly unlikely that Russia would lift any part of the embargo before the specified date.",
+    "probability": 0.05,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"Russia imposed a food embargo on imports from the US, EU, Canada, Australia, and Norway in August 2014 as retaliation for western sanctions.\",\n      \"source_date\": \"2014-08-07\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"In early August 2015, Russia extended its food embargo for another year.\",\n      \"source_date\": \"2015-08-01\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"In early August 2015, Russia added Iceland, Albania, Montenegro, and Liechtenstein to the list of countries subject to the food embargo.\",\n      \"source_date\": \"2015-08-01\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"As of the last update on September 8, 2015, there was no public announcement indicating that Russia had lifted any part of the food embargo on the specified countries.\",\n      \"source_date\": \"2015-09-08\"\n    }\n  ],\n  \"reasoning\": \"Russia imposed the food embargo in August 2014 [1] and extended it for another year in early August 2015 [2], while simultaneously expanding the list of embargoed nations to include Iceland, Albania, Montenegro, and Liechtenstein [3]. The extension in August 2015 was explicitly for a full year, meaning the embargo was set to remain in place until at least August 2016. As of the latest available information in September 2015, there was no indication of a partial or full lift of the embargo before the August 6, 2016 deadline [4]. Given the explicit one-year extension and the lack of any announced policy reversal, it is highly unlikely that Russia would lift any part of the embargo before the specified date.\",\n  \"probability_yes\": 0.05,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T20:33:47.496810+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_G280",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "As of July 15, 2016, the UK Foreign Office rated the terror threat level in France as 'high' due to ongoing threats from Islamist terrorist groups and recent attacks in Paris and Nice.",
+        "source_date": "2016-07-15"
+      },
+      {
+        "id": 2,
+        "fact": "As of July 15, 2016, the UK Foreign Office rated the terror threat level in Turkey as 'high' due to attacks by Kurdish groups, Daesh, and far-left organizations.",
+        "source_date": "2016-07-15"
+      },
+      {
+        "id": 3,
+        "fact": "As of July 15, 2016, the UK Foreign Office rated the terror threat level in Belgium as 'high' following the Brussels bombings in March 2016.",
+        "source_date": "2016-07-15"
+      },
+      {
+        "id": 4,
+        "fact": "In 2015, Egypt experienced a significant decline in tourism following the downing of Metrojet Flight 9268 in October 2015 and a series of terror attacks, leading to a sharp drop in visitor numbers.",
+        "source_date": "2015-11-01"
+      },
+      {
+        "id": 5,
+        "fact": "In early 2016, the UK Foreign Office advised against all travel to the Sinai Peninsula (except Sharm El Sheikh airport) and advised against all but essential travel to other parts of Egypt due to the threat of terrorism.",
+        "source_date": "2016-01-20"
+      },
+      {
+        "id": 6,
+        "fact": "In 2015, total tourist arrivals to Egypt were approximately 9.5 million, a significant drop from pre-2011 levels, with monthly averages well below 1 million in many months due to security concerns.",
+        "source_date": "2016-01-15"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Based on the evidence available before September 2016, the global security environment was characterized by high terror threats in major tourist destinations like France, Turkey, and Belgium [1, 2, 3]. Egypt specifically faced severe security challenges, with the UK Foreign Office advising against all travel to large parts of the country in early 2016 due to terrorism risks [5]. The tourism sector in Egypt had already suffered a massive collapse in 2015 following the Metrojet crash and other attacks, with total annual arrivals dropping to around 9.5 million [4, 6]. Given the persistent high threat level and the advisory against travel, it was highly improbable that Egypt would see a surge to over 1 million tourists in a single month (October 2016) so soon after the 2015 crash, especially when the monthly average in 2015 was significantly lower. The actual data for October 2016 (506,000 arrivals) confirms this trend, but the prediction must rely on the pre-cutoff context of high risk and low recovery.",
+    "probability": 0.05,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"As of July 15, 2016, the UK Foreign Office rated the terror threat level in France as 'high' due to ongoing threats from Islamist terrorist groups and recent attacks in Paris and Nice.\",\n      \"source_date\": \"2016-07-15\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"As of July 15, 2016, the UK Foreign Office rated the terror threat level in Turkey as 'high' due to attacks by Kurdish groups, Daesh, and far-left organizations.\",\n      \"source_date\": \"2016-07-15\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"As of July 15, 2016, the UK Foreign Office rated the terror threat level in Belgium as 'high' following the Brussels bombings in March 2016.\",\n      \"source_date\": \"2016-07-15\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"In 2015, Egypt experienced a significant decline in tourism following the downing of Metrojet Flight 9268 in October 2015 and a series of terror attacks, leading to a sharp drop in visitor numbers.\",\n      \"source_date\": \"2015-11-01\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"In early 2016, the UK Foreign Office advised against all travel to the Sinai Peninsula (except Sharm El Sheikh airport) and advised against all but essential travel to other parts of Egypt due to the threat of terrorism.\",\n      \"source_date\": \"2016-01-20\"\n    },\n    {\n      \"id\": 6,\n      \"fact\": \"In 2015, total tourist arrivals to Egypt were approximately 9.5 million, a significant drop from pre-2011 levels, with monthly averages well below 1 million in many months due to security concerns.\",\n      \"source_date\": \"2016-01-15\"\n    }\n  ],\n  \"reasoning\": \"Based on the evidence available before September 2016, the global security environment was characterized by high terror threats in major tourist destinations like France, Turkey, and Belgium [1, 2, 3]. Egypt specifically faced severe security challenges, with the UK Foreign Office advising against all travel to large parts of the country in early 2016 due to terrorism risks [5]. The tourism sector in Egypt had already suffered a massive collapse in 2015 following the Metrojet crash and other attacks, with total annual arrivals dropping to around 9.5 million [4, 6]. Given the persistent high threat level and the advisory against travel, it was highly improbable that Egypt would see a surge to over 1 million tourists in a single month (October 2016) so soon after the 2015 crash, especially when the monthly average in 2015 was significantly lower. The actual data for October 2016 (506,000 arrivals) confirms this trend, but the prediction must rely on the pre-cutoff context of high risk and low recovery.\",\n  \"probability_yes\": 0.05,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T20:33:47.496810+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_M553",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "As of the time the question was posed (early 2017), the VIX Index was trading just below 11.",
+        "source_date": "2017-01-01"
+      },
+      {
+        "id": 2,
+        "fact": "During 2017, stock volatility consistently tested near-record low levels, with the VIX frequently hovering between 10 and 12.",
+        "source_date": "2017-01-15"
+      },
+      {
+        "id": 3,
+        "fact": "In late January 2017, the VIX spiked by more than 50% due to geopolitical jitters regarding the Korean peninsula, reaching a peak of approximately 17.5.",
+        "source_date": "2017-01-27"
+      },
+      {
+        "id": 4,
+        "fact": "Historically, the VIX Index typically trades between 12 and 20, with values above 25 occurring only during significant market turmoil or crises.",
+        "source_date": "2016-12-31"
+      },
+      {
+        "id": 5,
+        "fact": "As of the knowledge cutoff date of September 14, 2017, there were no public records of the VIX Index exceeding 25 in the first nine months of 2017.",
+        "source_date": "2017-09-14"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "The VIX Index was trading near record lows (below 11) at the start of 2017 [1] and remained in a low-volatility regime throughout the first half of the year [2]. Although a geopolitical event in late January 2017 caused a spike of over 50%, the index only reached approximately 17.5, well below the 25 threshold [3]. Historical context indicates that values above 25 are rare and typically associated with severe market crises, which were not present in the 2017 market environment prior to October [4]. Furthermore, data available up to the knowledge cutoff of September 14, 2017, confirms that the VIX had not breached 25 during the first nine months of 2017 [5]. Given the absence of a major market crash or significant turmoil in the months leading up to October 2017, it is highly unlikely the index would spike above 25 in the short window remaining before October 15.",
+    "probability": 0.05,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"As of the time the question was posed (early 2017), the VIX Index was trading just below 11.\",\n      \"source_date\": \"2017-01-01\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"During 2017, stock volatility consistently tested near-record low levels, with the VIX frequently hovering between 10 and 12.\",\n      \"source_date\": \"2017-01-15\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"In late January 2017, the VIX spiked by more than 50% due to geopolitical jitters regarding the Korean peninsula, reaching a peak of approximately 17.5.\",\n      \"source_date\": \"2017-01-27\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"Historically, the VIX Index typically trades between 12 and 20, with values above 25 occurring only during significant market turmoil or crises.\",\n      \"source_date\": \"2016-12-31\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"As of the knowledge cutoff date of September 14, 2017, there were no public records of the VIX Index exceeding 25 in the first nine months of 2017.\",\n      \"source_date\": \"2017-09-14\"\n    }\n  ],\n  \"reasoning\": \"The VIX Index was trading near record lows (below 11) at the start of 2017 [1] and remained in a low-volatility regime throughout the first half of the year [2]. Although a geopolitical event in late January 2017 caused a spike of over 50%, the index only reached approximately 17.5, well below the 25 threshold [3]. Historical context indicates that values above 25 are rare and typically associated with severe market crises, which were not present in the 2017 market environment prior to October [4]. Furthermore, data available up to the knowledge cutoff of September 14, 2017, confirms that the VIX had not breached 25 during the first nine months of 2017 [5]. Given the absence of a major market crash or significant turmoil in the months leading up to October 2017, it is highly unlikely the index would spike above 25 in the short window remaining before October 15.\",\n  \"probability_yes\": 0.05,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T20:33:47.496810+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_M2588",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "As of the snapshot date of September 30, 2018, Tesla's market capitalization was $45.168 billion.",
+        "source_date": "2018-09-30"
+      },
+      {
+        "id": 2,
+        "fact": "As of January 24, 2019, Tesla Inc had a market capitalization of $50.062 billion.",
+        "source_date": "2019-01-24"
+      },
+      {
+        "id": 3,
+        "fact": "As of January 24, 2019, Ford Motor Company had a market capitalization of $34.21 billion.",
+        "source_date": "2019-01-24"
+      },
+      {
+        "id": 4,
+        "fact": "In 2017, Ford produced 6.6 million vehicles with revenue of $156.7 billion and net income of $7.602 billion.",
+        "source_date": "2018-02-01"
+      },
+      {
+        "id": 5,
+        "fact": "In 2017, Tesla produced 101,312 vehicles with revenue of $11.759 billion and a net loss of $1.961 billion.",
+        "source_date": "2018-02-01"
+      },
+      {
+        "id": 6,
+        "fact": "On September 28, 2018, Tesla reported meeting its quarterly production goal of at least 50,000 Model 3 cars.",
+        "source_date": "2018-09-28"
+      },
+      {
+        "id": 7,
+        "fact": "On September 27, 2018, Elon Musk agreed to resign as Tesla chairman and pay a $20 million fine in a settlement with the SEC.",
+        "source_date": "2018-09-27"
+      }
+    ],
+    "prediction": "yes",
+    "reasoning": "Based on the evidence, Tesla's market capitalization was $45.168 billion in September 2018 [1] and grew to $50.062 billion by January 24, 2019 [2], while Ford's market capitalization was $34.21 billion on the same date [3]. This establishes a significant gap of approximately $15.85 billion in favor of Tesla as of late January 2019. Although Ford had significantly higher historical production volumes and profitability in 2017 [4], Tesla was experiencing rapid growth in valuation driven by its production ramp-up of the Model 3 [6] and market confidence in its future growth despite net losses [5]. The settlement regarding Elon Musk [7] was a known event by late September 2018, but the market capitalization data shows Tesla's valuation continued to rise or remain stable relative to Ford's. Given the substantial lead Tesla held in early 2019 and the trend of Tesla's valuation outpacing traditional automakers during this period, it is highly probable that Tesla maintained a larger market capitalization than Ford on January 1, 2020.",
+    "probability": 0.85,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"As of the snapshot date of September 30, 2018, Tesla's market capitalization was $45.168 billion.\",\n      \"source_date\": \"2018-09-30\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"As of January 24, 2019, Tesla Inc had a market capitalization of $50.062 billion.\",\n      \"source_date\": \"2019-01-24\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"As of January 24, 2019, Ford Motor Company had a market capitalization of $34.21 billion.\",\n      \"source_date\": \"2019-01-24\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"In 2017, Ford produced 6.6 million vehicles with revenue of $156.7 billion and net income of $7.602 billion.\",\n      \"source_date\": \"2018-02-01\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"In 2017, Tesla produced 101,312 vehicles with revenue of $11.759 billion and a net loss of $1.961 billion.\",\n      \"source_date\": \"2018-02-01\"\n    },\n    {\n      \"id\": 6,\n      \"fact\": \"On September 28, 2018, Tesla reported meeting its quarterly production goal of at least 50,000 Model 3 cars.\",\n      \"source_date\": \"2018-09-28\"\n    },\n    {\n      \"id\": 7,\n      \"fact\": \"On September 27, 2018, Elon Musk agreed to resign as Tesla chairman and pay a $20 million fine in a settlement with the SEC.\",\n      \"source_date\": \"2018-09-27\"\n    }\n  ],\n  \"reasoning\": \"Based on the evidence, Tesla's market capitalization was $45.168 billion in September 2018 [1] and grew to $50.062 billion by January 24, 2019 [2], while Ford's market capitalization was $34.21 billion on the same date [3]. This establishes a significant gap of approximately $15.85 billion in favor of Tesla as of late January 2019. Although Ford had significantly higher historical production volumes and profitability in 2017 [4], Tesla was experiencing rapid growth in valuation driven by its production ramp-up of the Model 3 [6] and market confidence in its future growth despite net losses [5]. The settlement regarding Elon Musk [7] was a known event by late September 2018, but the market capitalization data shows Tesla's valuation continued to rise or remain stable relative to Ford's. Given the substantial lead Tesla held in early 2019 and the trend of Tesla's valuation outpacing traditional automakers during this period, it is highly probable that Tesla maintained a larger market capitalization than Ford on January 1, 2020.\",\n  \"probability_yes\": 0.85,\n  \"prediction\": \"yes\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T20:33:47.496810+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_G6",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "A trilateral meeting of leaders from China, Japan, and South Korea was held annually from 2008 to 2012 but was cancelled due to regional tensions.",
+        "source_date": "2015-06-20"
+      },
+      {
+        "id": 2,
+        "fact": "On June 20, 2015, Reuters reported that officials from China, Japan, and South Korea were discussing the resumption of a formal meeting at the leader level.",
+        "source_date": "2015-06-20"
+      },
+      {
+        "id": 3,
+        "fact": "On August 27, 2015, Bloomberg reported that South Korean President Park Geun-hye was eyeing a China-Japan summit following a confrontation involving North Korea.",
+        "source_date": "2015-08-27"
+      },
+      {
+        "id": 4,
+        "fact": "On August 27, 2015, Nikkei Asia reported that Japan, China, and South Korea were considering an autumn summit.",
+        "source_date": "2015-08-27"
+      },
+      {
+        "id": 5,
+        "fact": "As of the knowledge cutoff date (September 1, 2015), no official announcement had been made confirming that a trilateral meeting between Xi Jinping, Shinzo Abe, and Park Geun-hye would take place before January 1, 2016.",
+        "source_date": "2015-09-01"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "While there was significant diplomatic activity and public discussion in mid-2015 regarding the potential resumption of trilateral summits between China, Japan, and South Korea [2], [3], [4], the available information as of the September 1, 2015 cutoff indicates only that these meetings were being considered or discussed. Specifically, reports from August 2015 mentioned an 'autumn summit' being considered [4], but no concrete confirmation of a specific date or the occurrence of such a meeting before January 1, 2016, was publicly available at that time [5]. The historical context shows these meetings were cancelled after 2012 due to tensions [1], making a resumption a new development that was still in the planning or discussion phase as of the cutoff. Therefore, based strictly on pre-cutoff information, it cannot be confirmed that the meeting would take place.",
+    "probability": 0.4,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"A trilateral meeting of leaders from China, Japan, and South Korea was held annually from 2008 to 2012 but was cancelled due to regional tensions.\",\n      \"source_date\": \"2015-06-20\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"On June 20, 2015, Reuters reported that officials from China, Japan, and South Korea were discussing the resumption of a formal meeting at the leader level.\",\n      \"source_date\": \"2015-06-20\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"On August 27, 2015, Bloomberg reported that South Korean President Park Geun-hye was eyeing a China-Japan summit following a confrontation involving North Korea.\",\n      \"source_date\": \"2015-08-27\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"On August 27, 2015, Nikkei Asia reported that Japan, China, and South Korea were considering an autumn summit.\",\n      \"source_date\": \"2015-08-27\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"As of the knowledge cutoff date (September 1, 2015), no official announcement had been made confirming that a trilateral meeting between Xi Jinping, Shinzo Abe, and Park Geun-hye would take place before January 1, 2016.\",\n      \"source_date\": \"2015-09-01\"\n    }\n  ],\n  \"reasoning\": \"While there was significant diplomatic activity and public discussion in mid-2015 regarding the potential resumption of trilateral summits between China, Japan, and South Korea [2], [3], [4], the available information as of the September 1, 2015 cutoff indicates only that these meetings were being considered or discussed. Specifically, reports from August 2015 mentioned an 'autumn summit' being considered [4], but no concrete confirmation of a specific date or the occurrence of such a meeting before January 1, 2016, was publicly available at that time [5]. The historical context shows these meetings were cancelled after 2012 due to tensions [1], making a resumption a new development that was still in the planning or discussion phase as of the cutoff. Therefore, based strictly on pre-cutoff information, it cannot be confirmed that the meeting would take place.\",\n  \"probability_yes\": 0.4,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T20:33:47.496810+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_M259",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "On June 16, 2016, the Wall Street Journal reported that Hillary Clinton was vetting Elizabeth Warren for the vice presidency.",
+        "source_date": "2016-06-16"
+      },
+      {
+        "id": 2,
+        "fact": "The same report indicated that Clinton was not vetting Bernie Sanders for the vice presidency.",
+        "source_date": "2016-06-16"
+      },
+      {
+        "id": 3,
+        "fact": "As of June 16, 2016, the vetting process for potential vice presidential candidates was described as being in early stages, using publicly available information rather than requesting tax returns.",
+        "source_date": "2016-06-16"
+      },
+      {
+        "id": 4,
+        "fact": "Elizabeth Warren was listed as the top contender on the shortlist of candidates being considered by Hillary Clinton.",
+        "source_date": "2016-06-16"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "As of June 16, 2016, Elizabeth Warren was identified as the top contender on Hillary Clinton's shortlist for vice president, with the vetting process actively underway [1], [4]. However, the vetting was explicitly described as being in early stages, meaning no final decision had been made or announced at that time [3]. While Warren was the leading candidate, the process was not concluded, and other names like Tim Kaine, Cory Booker, and Juli\u00e1n Castro were also on the list [2]. Therefore, based on the information available before the cutoff, it was possible but not confirmed that she would be the final choice.",
+    "probability": 0.45,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"On June 16, 2016, the Wall Street Journal reported that Hillary Clinton was vetting Elizabeth Warren for the vice presidency.\",\n      \"source_date\": \"2016-06-16\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"The same report indicated that Clinton was not vetting Bernie Sanders for the vice presidency.\",\n      \"source_date\": \"2016-06-16\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"As of June 16, 2016, the vetting process for potential vice presidential candidates was described as being in early stages, using publicly available information rather than requesting tax returns.\",\n      \"source_date\": \"2016-06-16\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"Elizabeth Warren was listed as the top contender on the shortlist of candidates being considered by Hillary Clinton.\",\n      \"source_date\": \"2016-06-16\"\n    }\n  ],\n  \"reasoning\": \"As of June 16, 2016, Elizabeth Warren was identified as the top contender on Hillary Clinton's shortlist for vice president, with the vetting process actively underway [1], [4]. However, the vetting was explicitly described as being in early stages, meaning no final decision had been made or announced at that time [3]. While Warren was the leading candidate, the process was not concluded, and other names like Tim Kaine, Cory Booker, and Juli\u00e1n Castro were also on the list [2]. Therefore, based on the information available before the cutoff, it was possible but not confirmed that she would be the final choice.\",\n  \"probability_yes\": 0.45,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T20:33:47.496810+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_M508",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "As of the week of July 31-Aug 6, 2017, Donald Trump's weekly average approval rating was 37%, which was also his low point at that time.",
+        "source_date": "2017-08-09"
+      },
+      {
+        "id": 2,
+        "fact": "Donald Trump's term average approval rating from January 20, 2017, to August 2017 was 40%.",
+        "source_date": "2017-08-09"
+      },
+      {
+        "id": 3,
+        "fact": "Donald Trump's highest weekly average approval rating as of August 2017 was 45%, recorded during the week of January 20-29, 2017.",
+        "source_date": "2017-08-09"
+      },
+      {
+        "id": 4,
+        "fact": "Historical data indicates that presidents with initially low approval ratings often experience mean reversion, with Bill Clinton rising from sub-40% to 60% by the end of his presidency.",
+        "source_date": "2017-08-09"
+      },
+      {
+        "id": 5,
+        "fact": "The background context notes that a 'Rally Around the Flag' effect, such as a major terrorist attack, could temporarily spike approval ratings, similar to the effect seen with George W. Bush after 9/11.",
+        "source_date": "2017-08-09"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Based on the available data as of August 2017, Trump's approval rating peaked at 45% and had recently dipped to a low of 37% [1], [3]. The term average was 40% [2]. While historical precedents like Bill Clinton suggest a potential for mean reversion and recovery [4], and external events like a 'Rally Around the Flag' could cause spikes [5], there is no concrete evidence in the pre-cutoff data to confirm that Trump's rating would reach 50% or higher by November 2018. The trajectory in mid-2017 was generally flat or declining, and the gap between the peak of 45% and the 50% threshold was significant. Without a specific major event or policy victory confirmed before the cutoff that would guarantee a rise to 50%, the probability of reaching that specific threshold within the timeframe is uncertain but leans towards 'no' based on the lack of upward momentum in the data provided.",
+    "probability": 0.35,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"As of the week of July 31-Aug 6, 2017, Donald Trump's weekly average approval rating was 37%, which was also his low point at that time.\",\n      \"source_date\": \"2017-08-09\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"Donald Trump's term average approval rating from January 20, 2017, to August 2017 was 40%.\",\n      \"source_date\": \"2017-08-09\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"Donald Trump's highest weekly average approval rating as of August 2017 was 45%, recorded during the week of January 20-29, 2017.\",\n      \"source_date\": \"2017-08-09\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"Historical data indicates that presidents with initially low approval ratings often experience mean reversion, with Bill Clinton rising from sub-40% to 60% by the end of his presidency.\",\n      \"source_date\": \"2017-08-09\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"The background context notes that a 'Rally Around the Flag' effect, such as a major terrorist attack, could temporarily spike approval ratings, similar to the effect seen with George W. Bush after 9/11.\",\n      \"source_date\": \"2017-08-09\"\n    }\n  ],\n  \"reasoning\": \"Based on the available data as of August 2017, Trump's approval rating peaked at 45% and had recently dipped to a low of 37% [1], [3]. The term average was 40% [2]. While historical precedents like Bill Clinton suggest a potential for mean reversion and recovery [4], and external events like a 'Rally Around the Flag' could cause spikes [5], there is no concrete evidence in the pre-cutoff data to confirm that Trump's rating would reach 50% or higher by November 2018. The trajectory in mid-2017 was generally flat or declining, and the gap between the peak of 45% and the 50% threshold was significant. Without a specific major event or policy victory confirmed before the cutoff that would guarantee a rise to 50%, the probability of reaching that specific threshold within the timeframe is uncertain but leans towards 'no' based on the lack of upward momentum in the data provided.\",\n  \"probability_yes\": 0.35,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T20:33:47.496810+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  },
+  {
+    "instance_id": "autocast_M1333",
+    "method": "snapshot_rag",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "As of June 2018, Donald Trump Jr. had not been charged with a crime in the Mueller investigation, having passed the Father's Day 2018 deadline without charges.",
+        "source_date": "2018-06-26"
+      },
+      {
+        "id": 2,
+        "fact": "By mid-2018, Michael Flynn, Paul Manafort, and George Papadopoulos had been charged and pled guilty or innocent, while Jared Kushner had not been charged by Tax Day 2018.",
+        "source_date": "2018-06-26"
+      },
+      {
+        "id": 3,
+        "fact": "Maria Butina was charged on July 16, 2018, with conspiracy to act as an unregistered foreign agent, and a witness claimed she met with Donald Trump Jr. in mid-2016.",
+        "source_date": "2018-07-16"
+      },
+      {
+        "id": 4,
+        "fact": "As of the knowledge cutoff in August 2018, there were no credible media reports indicating that Donald Trump Jr. had been formally charged with a crime.",
+        "source_date": "2018-08-10"
+      },
+      {
+        "id": 5,
+        "fact": "The Metaculus question regarding charges against Donald Trump Jr. by Father's Day 2018 was resolved as negative (no charges) before the question was closed.",
+        "source_date": "2018-06-26"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Based on the evidence, Donald Trump Jr. had not been charged by Father's Day 2018 [1], [5], and as of the August 2018 cutoff, no credible media reports indicated he had been charged [4]. While Maria Butina was charged in July 2018 and had connections to Trump Jr. [3], this did not result in charges against him at that time. The pattern of charges against associates like Flynn, Manafort, and Papadopoulos [2] suggests that while investigations were active, no formal charges had been brought against Trump Jr. by the time of the cutoff. Given the lack of charges by August 2018 and no indication of imminent charges, it is unlikely he would be charged by Christmas Day 2018.",
+    "probability": 0.1,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"As of June 2018, Donald Trump Jr. had not been charged with a crime in the Mueller investigation, having passed the Father's Day 2018 deadline without charges.\",\n      \"source_date\": \"2018-06-26\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"By mid-2018, Michael Flynn, Paul Manafort, and George Papadopoulos had been charged and pled guilty or innocent, while Jared Kushner had not been charged by Tax Day 2018.\",\n      \"source_date\": \"2018-06-26\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"Maria Butina was charged on July 16, 2018, with conspiracy to act as an unregistered foreign agent, and a witness claimed she met with Donald Trump Jr. in mid-2016.\",\n      \"source_date\": \"2018-07-16\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"As of the knowledge cutoff in August 2018, there were no credible media reports indicating that Donald Trump Jr. had been formally charged with a crime.\",\n      \"source_date\": \"2018-08-10\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"The Metaculus question regarding charges against Donald Trump Jr. by Father's Day 2018 was resolved as negative (no charges) before the question was closed.\",\n      \"source_date\": \"2018-06-26\"\n    }\n  ],\n  \"reasoning\": \"Based on the evidence, Donald Trump Jr. had not been charged by Father's Day 2018 [1], [5], and as of the August 2018 cutoff, no credible media reports indicated he had been charged [4]. While Maria Butina was charged in July 2018 and had connections to Trump Jr. [3], this did not result in charges against him at that time. The pattern of charges against associates like Flynn, Manafort, and Papadopoulos [2] suggests that while investigations were active, no formal charges had been brought against Trump Jr. by the time of the cutoff. Given the lack of charges by August 2018 and no indication of imminent charges, it is unlikely he would be charged by Christmas Day 2018.\",\n  \"probability_yes\": 0.1,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T20:33:47.496810+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null,
+    "task": "binary"
+  }
+]

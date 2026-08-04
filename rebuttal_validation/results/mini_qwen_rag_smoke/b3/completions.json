@@ -1,0 +1,42 @@
+[
+  {
+    "instance_id": "autocast_G10",
+    "method": "b3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "Russia imposed a food embargo on imports from the United States, the European Union, Canada, Australia, and Norway in August 2014 as a retaliatory measure against Western sanctions.",
+        "source_date": "2014-08-06"
+      },
+      {
+        "id": 2,
+        "fact": "On August 6, 2015, Russian President Vladimir Putin signed a decree extending the food embargo for another year, effective until August 5, 2016.",
+        "source_date": "2015-08-06"
+      },
+      {
+        "id": 3,
+        "fact": "In June 2015, Russia expanded the list of embargoed countries to include Iceland, Albania, Montenegro, and Liechtenstein.",
+        "source_date": "2015-06-02"
+      },
+      {
+        "id": 4,
+        "fact": "As of September 2015, there were no official announcements or reports indicating that Russia planned to lift the food embargo on any of the listed countries before August 6, 2016.",
+        "source_date": "2015-09-01"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Russia's food embargo was initially imposed in August 2014 [1] and was explicitly extended for one year on August 6, 2015, valid until August 5, 2016 [2]. The extension decree covered the original list of countries and the additional nations added in June 2015 [3]. Given that the embargo was legally extended to cover the entire period leading up to August 6, 2016, and no public information available before the cutoff date indicated an intention to lift it early [4], it is highly improbable that Russia would officially lift the embargo before the specified date.",
+    "probability": 0.05,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"Russia imposed a food embargo on imports from the United States, the European Union, Canada, Australia, and Norway in August 2014 as a retaliatory measure against Western sanctions.\",\n      \"source_date\": \"2014-08-06\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"On August 6, 2015, Russian President Vladimir Putin signed a decree extending the food embargo for another year, effective until August 5, 2016.\",\n      \"source_date\": \"2015-08-06\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"In June 2015, Russia expanded the list of embargoed countries to include Iceland, Albania, Montenegro, and Liechtenstein.\",\n      \"source_date\": \"2015-06-02\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"As of September 2015, there were no official announcements or reports indicating that Russia planned to lift the food embargo on any of the listed countries before August 6, 2016.\",\n      \"source_date\": \"2015-09-01\"\n    }\n  ],\n  \"reasoning\": \"Russia's food embargo was initially imposed in August 2014 [1] and was explicitly extended for one year on August 6, 2015, valid until August 5, 2016 [2]. The extension decree covered the original list of countries and the additional nations added in June 2015 [3]. Given that the embargo was legally extended to cover the entire period leading up to August 6, 2016, and no public information available before the cutoff date indicated an intention to lift it early [4], it is highly improbable that Russia would officially lift the embargo before the specified date.\",\n  \"probability_yes\": 0.05,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-07-12T19:36:53.155213+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  }
+]

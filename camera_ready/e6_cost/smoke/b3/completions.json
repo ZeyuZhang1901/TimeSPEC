@@ -1,0 +1,242 @@
+[
+  {
+    "instance_id": "autocast_G10",
+    "method": "b3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "On August 6, 2014, Russia imposed a one-year ban on imports of many food and agricultural products from countries participating in sanctions against Russia, including the U.S., EU member states, Canada, Australia, and Norway.",
+        "source_date": "2014-08-06"
+      },
+      {
+        "id": 2,
+        "fact": "On June 24, 2015, President Putin signed a decree extending the counter-sanctions, keeping the food ban in place until August 6, 2016.",
+        "source_date": "2015-06-24"
+      },
+      {
+        "id": 3,
+        "fact": "On August 13, 2015, Russia expanded the embargo to include similar food products from Albania, Montenegro, Iceland, Liechtenstein, and Ukraine.",
+        "source_date": "2015-08-13"
+      },
+      {
+        "id": 4,
+        "fact": "On April 30, 2015, Deputy Prime Minister Arkady Dvorkovich stated, 'We are not currently considering canceling the ban,' while Kremlin spokesman Dmitry Peskov said the decision would depend on the EU's sanctions decision.",
+        "source_date": "2015-04-30"
+      },
+      {
+        "id": 5,
+        "fact": "On March 2, 2015, Russian authorities indicated they might possibly withdraw the ban on imports of food products from sanctioning countries only if those products were subsequently processed in Russia, a measure framed as conditional and partial rather than a full lifting of the embargo.",
+        "source_date": "2015-03-02"
+      },
+      {
+        "id": 6,
+        "fact": "In June 2015, reporting described the extension of the food import ban as retaliation for the EU's sanctions extension rather than a move toward lifting it.",
+        "source_date": "2015-06-24"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Based on the evidence available before the cutoff, Russia has not officially lifted any part of its food embargo on the specified countries before August 6, 2016. The embargo was extended for one year on June 24, 2015, setting a hard deadline of August 6, 2016 for the current ban [2]. High-ranking officials, including Deputy Prime Minister Arkady Dvorkovich, explicitly stated in April 2015 that they were not currently considering canceling the ban [4]. While there was a discussion in March 2015 about potentially allowing processed food products, this was a conditional, partial measure and not a lifting of the embargo on the products themselves [5]. The extension in June 2015 was characterized as retaliation for Western sanctions, reinforcing the policy's continuity rather than a move toward lifting it [6]. No official announcement or decree prior to the cutoff date indicates a full or partial lifting of the embargo for the listed countries within the specified timeframe. Therefore, the prediction is that no official lifting will occur before the deadline.",
+    "probability": 0.05,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"On August 6, 2014, Russia imposed a one-year ban on imports of many food and agricultural products from countries participating in sanctions against Russia, including the U.S., EU member states, Canada, Australia, and Norway.\",\n      \"source_date\": \"2014-08-06\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"On June 24, 2015, President Putin signed a decree extending the counter-sanctions, keeping the food ban in place until August 6, 2016.\",\n      \"source_date\": \"2015-06-24\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"On August 13, 2015, Russia expanded the embargo to include similar food products from Albania, Montenegro, Iceland, Liechtenstein, and Ukraine.\",\n      \"source_date\": \"2015-08-13\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"On April 30, 2015, Deputy Prime Minister Arkady Dvorkovich stated, 'We are not currently considering canceling the ban,' while Kremlin spokesman Dmitry Peskov said the decision would depend on the EU's sanctions decision.\",\n      \"source_date\": \"2015-04-30\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"On March 2, 2015, Russian authorities indicated they might possibly withdraw the ban on imports of food products from sanctioning countries only if those products were subsequently processed in Russia, a measure framed as conditional and partial rather than a full lifting of the embargo.\",\n      \"source_date\": \"2015-03-02\"\n    },\n    {\n      \"id\": 6,\n      \"fact\": \"In June 2015, reporting described the extension of the food import ban as retaliation for the EU's sanctions extension rather than a move toward lifting it.\",\n      \"source_date\": \"2015-06-24\"\n    }\n  ],\n  \"reasoning\": \"Based on the evidence available before the cutoff, Russia has not officially lifted any part of its food embargo on the specified countries before August 6, 2016. The embargo was extended for one year on June 24, 2015, setting a hard deadline of August 6, 2016 for the current ban [2]. High-ranking officials, including Deputy Prime Minister Arkady Dvorkovich, explicitly stated in April 2015 that they were not currently considering canceling the ban [4]. While there was a discussion in March 2015 about potentially allowing processed food products, this was a conditional, partial measure and not a lifting of the embargo on the products themselves [5]. The extension in June 2015 was characterized as retaliation for Western sanctions, reinforcing the policy's continuity rather than a move toward lifting it [6]. No official announcement or decree prior to the cutoff date indicates a full or partial lifting of the embargo for the listed countries within the specified timeframe. Therefore, the prediction is that no official lifting will occur before the deadline.\",\n  \"probability_yes\": 0.05,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:46.721809+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  },
+  {
+    "instance_id": "autocast_G106",
+    "method": "b3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "UNHCR reported that 262,935 refugees and migrants arrived by sea in Europe in 2016 as of 8 August 2016.",
+        "source_date": "2016-08-08"
+      },
+      {
+        "id": 2,
+        "fact": "UNHCR reported that 281,740 people had made the sea crossing to Europe in the first eight months of 2016.",
+        "source_date": "2016-09-01"
+      },
+      {
+        "id": 3,
+        "fact": "UNHCR reported 313,872 arrivals in Europe in 2016 to date as of 22 October 2016.",
+        "source_date": "2016-10-22"
+      },
+      {
+        "id": 4,
+        "fact": "UNHCR reported approximately 319,826 arrivals in the Mediterranean in 2016 as of 22 October 2016.",
+        "source_date": "2016-10-22"
+      },
+      {
+        "id": 5,
+        "fact": "IOM reported 205,509 arrivals and 2,443 deaths in the Mediterranean as of 31 May 2016.",
+        "source_date": "2016-05-31"
+      },
+      {
+        "id": 6,
+        "fact": "IOM reported 278,327 arrivals and 3,171 deaths in the Mediterranean as of 31 August 2016.",
+        "source_date": "2016-08-31"
+      },
+      {
+        "id": 7,
+        "fact": "IOM reported 314,003 arrivals and 3,610 deaths in the Mediterranean as of 5 October 2016.",
+        "source_date": "2016-10-05"
+      },
+      {
+        "id": 8,
+        "fact": "UNHCR reported that 1,000,573 sea arrivals occurred in Europe in 2015.",
+        "source_date": "2016-01-01"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Based on pre-2017 data, the number of sea arrivals in Europe for 2016 was tracked incrementally, reaching 262,935 by August [1], 281,740 by the end of August [2], and approximately 314,000 to 319,826 by late October [3][4][7]. The rate of arrivals in the final two months of 2016 (November and December) would need to exceed 680,000 to reach the 1 million threshold. However, the 2015 total was 1,000,573 [8], and the flow in 2016 was significantly lower, with the peak monthly rates in 2015 far exceeding those in late 2016. Given that the cumulative total was only around 314,000 by early October, and historical trends showed a sharp decline from 2015 levels, it was impossible for the total to reach 1 million by year-end based on the available pre-cutoff evidence. The background information provided in the prompt also states the final UNHCR figure was 361,678, which is well below 1 million.",
+    "probability": 0.0,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"UNHCR reported that 262,935 refugees and migrants arrived by sea in Europe in 2016 as of 8 August 2016.\",\n      \"source_date\": \"2016-08-08\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"UNHCR reported that 281,740 people had made the sea crossing to Europe in the first eight months of 2016.\",\n      \"source_date\": \"2016-09-01\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"UNHCR reported 313,872 arrivals in Europe in 2016 to date as of 22 October 2016.\",\n      \"source_date\": \"2016-10-22\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"UNHCR reported approximately 319,826 arrivals in the Mediterranean in 2016 as of 22 October 2016.\",\n      \"source_date\": \"2016-10-22\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"IOM reported 205,509 arrivals and 2,443 deaths in the Mediterranean as of 31 May 2016.\",\n      \"source_date\": \"2016-05-31\"\n    },\n    {\n      \"id\": 6,\n      \"fact\": \"IOM reported 278,327 arrivals and 3,171 deaths in the Mediterranean as of 31 August 2016.\",\n      \"source_date\": \"2016-08-31\"\n    },\n    {\n      \"id\": 7,\n      \"fact\": \"IOM reported 314,003 arrivals and 3,610 deaths in the Mediterranean as of 5 October 2016.\",\n      \"source_date\": \"2016-10-05\"\n    },\n    {\n      \"id\": 8,\n      \"fact\": \"UNHCR reported that 1,000,573 sea arrivals occurred in Europe in 2015.\",\n      \"source_date\": \"2016-01-01\"\n    }\n  ],\n  \"reasoning\": \"Based on pre-2017 data, the number of sea arrivals in Europe for 2016 was tracked incrementally, reaching 262,935 by August [1], 281,740 by the end of August [2], and approximately 314,000 to 319,826 by late October [3][4][7]. The rate of arrivals in the final two months of 2016 (November and December) would need to exceed 680,000 to reach the 1 million threshold. However, the 2015 total was 1,000,573 [8], and the flow in 2016 was significantly lower, with the peak monthly rates in 2015 far exceeding those in late 2016. Given that the cumulative total was only around 314,000 by early October, and historical trends showed a sharp decline from 2015 levels, it was impossible for the total to reach 1 million by year-end based on the available pre-cutoff evidence. The background information provided in the prompt also states the final UNHCR figure was 361,678, which is well below 1 million.\",\n  \"probability_yes\": 0.0,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:46.721809+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  },
+  {
+    "instance_id": "autocast_G127",
+    "method": "b3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "As of April 2016, the Colombia–FARC peace talks were still ongoing and had missed the March 23, 2016 deadline for signing a final agreement.",
+        "source_date": "2016-04-30"
+      },
+      {
+        "id": 2,
+        "fact": "By late April 2016, the parties had made substantial progress but no final accord had yet been signed, as they were still negotiating unresolved issues, especially demobilization/disarmament and security guarantees.",
+        "source_date": "2016-04-30"
+      },
+      {
+        "id": 3,
+        "fact": "After missing the March 23, 2016 deadline, both sides stated they would keep negotiating rather than sign a weak agreement.",
+        "source_date": "2016-03-24"
+      },
+      {
+        "id": 4,
+        "fact": "Reports in late March 2016 indicated there were still notable differences over the rebels' demobilization and disarmament process.",
+        "source_date": "2016-03-24"
+      },
+      {
+        "id": 5,
+        "fact": "The talks were widely seen as the closest they had ever been to a final settlement, but the deal was not yet complete by the end of April 2016.",
+        "source_date": "2016-04-30"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Based on the evidence available before the cutoff date of April 30, 2016, the Colombian government and the FARC had not signed a final peace agreement by that time [1][2][5]. Although the parties had reached agreement on four major agenda items, they missed the specific deadline of March 23, 2016, due to unresolved differences regarding demobilization and disarmament [3][4]. Following the missed deadline, both sides explicitly stated their intention to continue negotiating rather than finalize a weak deal [3]. Since the agreement was not signed by the end of April 2016 and negotiations were still ongoing regarding critical unresolved issues, it is highly unlikely based on the pre-cutoff information that a final agreement would be signed before May 1, 2016.",
+    "probability": 0.05,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"As of April 2016, the Colombia–FARC peace talks were still ongoing and had missed the March 23, 2016 deadline for signing a final agreement.\",\n      \"source_date\": \"2016-04-30\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"By late April 2016, the parties had made substantial progress but no final accord had yet been signed, as they were still negotiating unresolved issues, especially demobilization/disarmament and security guarantees.\",\n      \"source_date\": \"2016-04-30\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"After missing the March 23, 2016 deadline, both sides stated they would keep negotiating rather than sign a weak agreement.\",\n      \"source_date\": \"2016-03-24\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"Reports in late March 2016 indicated there were still notable differences over the rebels' demobilization and disarmament process.\",\n      \"source_date\": \"2016-03-24\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"The talks were widely seen as the closest they had ever been to a final settlement, but the deal was not yet complete by the end of April 2016.\",\n      \"source_date\": \"2016-04-30\"\n    }\n  ],\n  \"reasoning\": \"Based on the evidence available before the cutoff date of April 30, 2016, the Colombian government and the FARC had not signed a final peace agreement by that time [1][2][5]. Although the parties had reached agreement on four major agenda items, they missed the specific deadline of March 23, 2016, due to unresolved differences regarding demobilization and disarmament [3][4]. Following the missed deadline, both sides explicitly stated their intention to continue negotiating rather than finalize a weak deal [3]. Since the agreement was not signed by the end of April 2016 and negotiations were still ongoing regarding critical unresolved issues, it is highly unlikely based on the pre-cutoff information that a final agreement would be signed before May 1, 2016.\",\n  \"probability_yes\": 0.05,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:46.721809+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  },
+  {
+    "instance_id": "autocast_G130",
+    "method": "b3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "On 9 October 2016, attacks on border police posts in Rakhine State triggered a military crackdown in Myanmar.",
+        "source_date": "2016-10-09"
+      },
+      {
+        "id": 2,
+        "fact": "Human Rights Watch reported that by November 2016, at least 1,500 buildings were destroyed and approximately 30,000 people were displaced following the crackdown.",
+        "source_date": "2016-11-17"
+      },
+      {
+        "id": 3,
+        "fact": "Amnesty International reported in November 2016 that Myanmar security forces killed civilians, raped women and girls, and torched villages, describing the actions as collective punishment potentially amounting to crimes against humanity.",
+        "source_date": "2016-11-01"
+      },
+      {
+        "id": 4,
+        "fact": "The United Nations Office of the High Commissioner for Human Rights documented in November 2016 that security forces committed arbitrary deprivation of nationality, severe movement restrictions, and sexual violence against Rohingya civilians.",
+        "source_date": "2016-11-01"
+      },
+      {
+        "id": 5,
+        "fact": "The Early Warning Project determined in late 2016 that no new episode of mass killing had been confirmed in Myanmar in 2016, despite the high risk assessment and documented abuses.",
+        "source_date": "2016-12-30"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "The context indicates that while a significant escalation of violence occurred in October 2016 involving killings, rape, and arson against the Rohingya population [1][2][3], the Early Warning Project (EWP) explicitly concluded by the end of 2016 that no new episode of mass killing had been officially confirmed for that year [5]. The EWP's definition of a mass killing episode requires specific criteria that, according to their assessment, were not met by the events of late 2016, even though the abuses were severe and documented by human rights groups [2][3][4]. Since the question asks if a *new* episode will occur before January 1, 2017, and the EWP had already reviewed the 2016 data and found no such episode to have occurred by the cutoff, the prediction is that no new episode meeting the specific definition will be recorded in the remaining days of 2016.",
+    "probability": 0.0,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"On 9 October 2016, attacks on border police posts in Rakhine State triggered a military crackdown in Myanmar.\",\n      \"source_date\": \"2016-10-09\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"Human Rights Watch reported that by November 2016, at least 1,500 buildings were destroyed and approximately 30,000 people were displaced following the crackdown.\",\n      \"source_date\": \"2016-11-17\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"Amnesty International reported in November 2016 that Myanmar security forces killed civilians, raped women and girls, and torched villages, describing the actions as collective punishment potentially amounting to crimes against humanity.\",\n      \"source_date\": \"2016-11-01\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"The United Nations Office of the High Commissioner for Human Rights documented in November 2016 that security forces committed arbitrary deprivation of nationality, severe movement restrictions, and sexual violence against Rohingya civilians.\",\n      \"source_date\": \"2016-11-01\"\n    },\n    {\n      \"id\": 5,\n      \"fact\": \"The Early Warning Project determined in late 2016 that no new episode of mass killing had been confirmed in Myanmar in 2016, despite the high risk assessment and documented abuses.\",\n      \"source_date\": \"2016-12-30\"\n    }\n  ],\n  \"reasoning\": \"The context indicates that while a significant escalation of violence occurred in October 2016 involving killings, rape, and arson against the Rohingya population [1][2][3], the Early Warning Project (EWP) explicitly concluded by the end of 2016 that no new episode of mass killing had been officially confirmed for that year [5]. The EWP's definition of a mass killing episode requires specific criteria that, according to their assessment, were not met by the events of late 2016, even though the abuses were severe and documented by human rights groups [2][3][4]. Since the question asks if a *new* episode will occur before January 1, 2017, and the EWP had already reviewed the 2016 data and found no such episode to have occurred by the cutoff, the prediction is that no new episode meeting the specific definition will be recorded in the remaining days of 2016.\",\n  \"probability_yes\": 0.0,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:46.721809+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  },
+  {
+    "instance_id": "autocast_G133",
+    "method": "b3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "The AlphaGo vs. Lee Sedol match was a five-game series scheduled to take place in Seoul, South Korea, from March 9 to March 15, 2016.",
+        "source_date": "2016-02-05"
+      },
+      {
+        "id": 2,
+        "fact": "AlphaGo won Game 1 against Lee Sedol on March 9, 2016, by resignation, taking a 1-0 lead in the series.",
+        "source_date": "2016-03-09"
+      },
+      {
+        "id": 3,
+        "fact": "AlphaGo defeated Lee Sedol in Game 2 on March 10, 2016, by resignation, giving AlphaGo a 2-0 lead in the series.",
+        "source_date": "2016-03-10"
+      },
+      {
+        "id": 4,
+        "fact": "AlphaGo defeated Lee Sedol in Game 3 on March 12, 2016, by resignation after 176 moves, giving AlphaGo a 3-0 lead and clinching the five-game match.",
+        "source_date": "2016-03-12"
+      }
+    ],
+    "prediction": "yes",
+    "reasoning": "Based on the publicly available information prior to the cutoff date, AlphaGo had already secured a decisive victory in the series. AlphaGo won Game 1 on March 9 [2], Game 2 on March 10 [3], and Game 3 on March 12 [4]. Since the match is a best-of-five series, winning three games constitutes a victory in the match. The evidence confirms that AlphaGo achieved a 3-0 lead by March 12, 2016, effectively winning the five-game match before the scheduled conclusion on March 15 [1].",
+    "probability": 1.0,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"The AlphaGo vs. Lee Sedol match was a five-game series scheduled to take place in Seoul, South Korea, from March 9 to March 15, 2016.\",\n      \"source_date\": \"2016-02-05\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"AlphaGo won Game 1 against Lee Sedol on March 9, 2016, by resignation, taking a 1-0 lead in the series.\",\n      \"source_date\": \"2016-03-09\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"AlphaGo defeated Lee Sedol in Game 2 on March 10, 2016, by resignation, giving AlphaGo a 2-0 lead in the series.\",\n      \"source_date\": \"2016-03-10\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"AlphaGo defeated Lee Sedol in Game 3 on March 12, 2016, by resignation after 176 moves, giving AlphaGo a 3-0 lead and clinching the five-game match.\",\n      \"source_date\": \"2016-03-12\"\n    }\n  ],\n  \"reasoning\": \"Based on the publicly available information prior to the cutoff date, AlphaGo had already secured a decisive victory in the series. AlphaGo won Game 1 on March 9 [2], Game 2 on March 10 [3], and Game 3 on March 12 [4]. Since the match is a best-of-five series, winning three games constitutes a victory in the match. The evidence confirms that AlphaGo achieved a 3-0 lead by March 12, 2016, effectively winning the five-game match before the scheduled conclusion on March 15 [1].\",\n  \"probability_yes\": 1.0,\n  \"prediction\": \"yes\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:46.721809+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  }
+]

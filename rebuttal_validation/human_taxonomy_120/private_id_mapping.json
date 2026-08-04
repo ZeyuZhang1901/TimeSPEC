@@ -1,0 +1,602 @@
+[
+  {
+    "human_id": "H001",
+    "original_id": "c0_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H002",
+    "original_id": "c0_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H003",
+    "original_id": "c0_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H004",
+    "original_id": "c0_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H005",
+    "original_id": "c0_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H006",
+    "original_id": "c0_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H007",
+    "original_id": "c0_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H008",
+    "original_id": "c0_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H009",
+    "original_id": "c0_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H010",
+    "original_id": "c0_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H011",
+    "original_id": "c1_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H012",
+    "original_id": "c1_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H013",
+    "original_id": "c1_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H014",
+    "original_id": "c1_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H015",
+    "original_id": "c1_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H016",
+    "original_id": "c1_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H017",
+    "original_id": "c1_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H018",
+    "original_id": "c1_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H019",
+    "original_id": "c1_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H020",
+    "original_id": "c1_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H021",
+    "original_id": "c2_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H022",
+    "original_id": "c2_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H023",
+    "original_id": "c2_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H024",
+    "original_id": "c2_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H025",
+    "original_id": "c2_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H026",
+    "original_id": "c2_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H027",
+    "original_id": "c2_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H028",
+    "original_id": "c2_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H029",
+    "original_id": "c2_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H030",
+    "original_id": "c2_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H031",
+    "original_id": "c3_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H032",
+    "original_id": "c3_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H033",
+    "original_id": "c3_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H034",
+    "original_id": "c3_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H035",
+    "original_id": "c3_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H036",
+    "original_id": "c3_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H037",
+    "original_id": "c3_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H038",
+    "original_id": "c3_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H039",
+    "original_id": "c3_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H040",
+    "original_id": "c3_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H041",
+    "original_id": "c4_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H042",
+    "original_id": "c4_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H043",
+    "original_id": "c4_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H044",
+    "original_id": "c4_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H045",
+    "original_id": "c4_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H046",
+    "original_id": "c4_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H047",
+    "original_id": "c4_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H048",
+    "original_id": "c4_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H049",
+    "original_id": "c4_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H050",
+    "original_id": "c4_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H051",
+    "original_id": "c5_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H052",
+    "original_id": "c5_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H053",
+    "original_id": "c5_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H054",
+    "original_id": "c5_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H055",
+    "original_id": "c5_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H056",
+    "original_id": "c5_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H057",
+    "original_id": "c5_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H058",
+    "original_id": "c5_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H059",
+    "original_id": "c5_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H060",
+    "original_id": "c5_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H061",
+    "original_id": "c6_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H062",
+    "original_id": "c6_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H063",
+    "original_id": "c6_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H064",
+    "original_id": "c6_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H065",
+    "original_id": "c6_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H066",
+    "original_id": "c6_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H067",
+    "original_id": "c6_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H068",
+    "original_id": "c6_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H069",
+    "original_id": "c6_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H070",
+    "original_id": "c6_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H071",
+    "original_id": "c7_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H072",
+    "original_id": "c7_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H073",
+    "original_id": "c7_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H074",
+    "original_id": "c7_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H075",
+    "original_id": "c7_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H076",
+    "original_id": "c7_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H077",
+    "original_id": "c7_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H078",
+    "original_id": "c7_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H079",
+    "original_id": "c7_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H080",
+    "original_id": "c7_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H081",
+    "original_id": "c8_01",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H082",
+    "original_id": "c8_02",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H083",
+    "original_id": "c8_03",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H084",
+    "original_id": "c8_04",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H085",
+    "original_id": "c8_05",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H086",
+    "original_id": "c8_06",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H087",
+    "original_id": "c8_07",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H088",
+    "original_id": "c8_08",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H089",
+    "original_id": "c8_09",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H090",
+    "original_id": "c8_10",
+    "subset": "taxonomy"
+  },
+  {
+    "human_id": "H091",
+    "original_id": "boundary_01_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H092",
+    "original_id": "boundary_01_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H093",
+    "original_id": "boundary_02_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H094",
+    "original_id": "boundary_02_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H095",
+    "original_id": "boundary_03_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H096",
+    "original_id": "boundary_03_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H097",
+    "original_id": "boundary_04_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H098",
+    "original_id": "boundary_04_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H099",
+    "original_id": "boundary_05_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H100",
+    "original_id": "boundary_05_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H101",
+    "original_id": "boundary_06_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H102",
+    "original_id": "boundary_06_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H103",
+    "original_id": "boundary_07_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H104",
+    "original_id": "boundary_07_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H105",
+    "original_id": "boundary_08_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H106",
+    "original_id": "boundary_08_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H107",
+    "original_id": "boundary_09_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H108",
+    "original_id": "boundary_09_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H109",
+    "original_id": "boundary_10_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H110",
+    "original_id": "boundary_10_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H111",
+    "original_id": "boundary_11_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H112",
+    "original_id": "boundary_11_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H113",
+    "original_id": "boundary_12_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H114",
+    "original_id": "boundary_12_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H115",
+    "original_id": "boundary_13_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H116",
+    "original_id": "boundary_13_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H117",
+    "original_id": "boundary_14_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H118",
+    "original_id": "boundary_14_after",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H119",
+    "original_id": "boundary_15_before",
+    "subset": "date_boundary"
+  },
+  {
+    "human_id": "H120",
+    "original_id": "boundary_15_after",
+    "subset": "date_boundary"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "checkpoint_every": 12,
+  "concurrency": 1,
+  "dataset_path": "rebuttal_validation/data/autocast_rebuttal_20.jsonl",
+  "input_path": "rebuttal_validation/results/mini_qwen_12/b2/completions.json",
+  "instance_ids_filter": null,
+  "method": "b2",
+  "model": "qwen/qwen3.5-35b-a3b",
+  "n_instances": 12,
+  "n_resumed_from": 0,
+  "shapley_backend": "openrouter",
+  "shapley_estimator_config": {
+    "coalition_budget_c": 15.0,
+    "coalition_budget_cap": 1200,
+    "exact_threshold_n": 8,
+    "random_seed": 42,
+    "skip_if_no_leakage": false
+  },
+  "taxonomy_backend": "llm"
+}

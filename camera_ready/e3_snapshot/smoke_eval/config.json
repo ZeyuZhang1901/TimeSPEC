@@ -1,0 +1,27 @@
+{
+  "dataset_path": "camera_ready/e3_snapshot/smoke_gen/dataset.jsonl",
+  "input_path": "camera_ready/e3_snapshot/smoke_gen/completions.json",
+  "leakage": {
+    "judge_model": "google/gemini-3.1-flash-lite",
+    "search_concurrency": 4,
+    "search_only_on_escalation": true,
+    "taxonomy_batch_size": 20,
+    "taxonomy_concurrency": 4
+  },
+  "output_dir": "camera_ready/e3_snapshot/smoke_eval",
+  "shapley": {
+    "coalition_budget_c": 15.0,
+    "coalition_budget_cap": 1200,
+    "coalition_concurrency": 16,
+    "evaluator_backend": "openrouter",
+    "evaluator_model_override": "",
+    "evaluator_model_policy": "same_as_generator",
+    "exact_threshold_n": 8,
+    "high_rigor_c": 25.0,
+    "high_rigor_subset_size": 12,
+    "random_seed": 42,
+    "skip_if_no_leakage": false,
+    "temperature": 0.0,
+    "use_paper_leverage_shap": true
+  }
+}

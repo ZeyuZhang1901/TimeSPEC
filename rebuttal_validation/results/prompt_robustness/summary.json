@@ -1,0 +1,24 @@
+{
+  "rules_first": {
+    "n": 120,
+    "category_agreement": 0.7833333333333333,
+    "tier_agreement": 0.875,
+    "leakage_agreement": 1.0,
+    "date_agreement": 0.9166666666666666,
+    "gold_category_accuracy": 0.5666666666666667,
+    "gold_leakage_accuracy": 1.0,
+    "requests": 29,
+    "tokens": 34162
+  },
+  "tier_first": {
+    "n": 120,
+    "category_agreement": 0.6583333333333333,
+    "tier_agreement": 0.8333333333333334,
+    "leakage_agreement": 1.0,
+    "date_agreement": 0.9083333333333333,
+    "gold_category_accuracy": 0.8333333333333334,
+    "gold_leakage_accuracy": 1.0,
+    "requests": 29,
+    "tokens": 32546
+  }
+}

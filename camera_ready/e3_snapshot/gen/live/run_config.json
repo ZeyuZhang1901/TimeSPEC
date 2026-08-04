@@ -1,0 +1,10 @@
+{
+  "model_name": "qwen/qwen3.5-35b-a3b",
+  "methods": [
+    "b3",
+    "b4"
+  ],
+  "split": "all",
+  "n_instances": 200,
+  "concurrency": 8
+}

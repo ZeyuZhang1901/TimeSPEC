@@ -1,0 +1,10 @@
+{
+  "human_labeled_items": 46,
+  "label_counts": {
+    "A": 22,
+    "B": 22,
+    "C": 2
+  },
+  "remaining_unlabeled": 54,
+  "round2_corrections_applied": 20
+}

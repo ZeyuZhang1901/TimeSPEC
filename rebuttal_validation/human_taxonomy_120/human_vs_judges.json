@@ -1,0 +1,1792 @@
+{
+  "anthropic/claude-sonnet-4#run1": {
+    "all_120": {
+      "n": 120,
+      "accuracy": 0.9833333333333333,
+      "macro_f1": 0.9775533108866442,
+      "cohen_kappa": 0.9799966661110184,
+      "tier_accuracy": 0.9833333333333333,
+      "tier_kappa": 0.9661016949152541,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "support": 12
+        },
+        "C5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C6": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 40
+        },
+        "C7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        }
+      ]
+    },
+    "balanced_90": {
+      "n": 90,
+      "accuracy": 0.9777777777777777,
+      "macro_f1": 0.9775533108866442,
+      "cohen_kappa": 0.9749930536260072,
+      "tier_accuracy": 0.9777777777777777,
+      "tier_kappa": 0.962025316455696,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "support": 12
+        },
+        "C5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C6": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        }
+      ]
+    }
+  },
+  "google/gemini-3.1-flash-lite#run1": {
+    "all_120": {
+      "n": 120,
+      "accuracy": 0.5916666666666667,
+      "macro_f1": 0.6794595289218945,
+      "cohen_kappa": 0.5497702909647779,
+      "tier_accuracy": 0.8916666666666667,
+      "tier_kappa": 0.7990208709095594,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 0.2682926829268293,
+          "recall": 1.0,
+          "f1": 0.4230769230769231,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 12
+        },
+        "C5": {
+          "precision": 0.45454545454545453,
+          "recall": 0.5,
+          "f1": 0.47619047619047616,
+          "support": 10
+        },
+        "C6": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.18181818181818182,
+          "support": 40
+        },
+        "C7": {
+          "precision": 0.47619047619047616,
+          "recall": 1.0,
+          "f1": 0.6451612903225806,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 45,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 46,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 47,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 48,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 49,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 50,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 56,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 57,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 58,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 59,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 60,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 61,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 62,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 63,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 64,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 65,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 66,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 67,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 68,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 69,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 70,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 91,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 92,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 94,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 96,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 98,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 99,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 100,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 101,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 102,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 103,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 104,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 105,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 106,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 107,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 108,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 109,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 110,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 111,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 112,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 113,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 114,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 115,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 116,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 117,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 119,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 120,
+          "gold": "C6",
+          "predicted": "C3"
+        }
+      ]
+    },
+    "balanced_90": {
+      "n": 90,
+      "accuracy": 0.7444444444444445,
+      "macro_f1": 0.7061798674069389,
+      "cohen_kappa": 0.7125798389336295,
+      "tier_accuracy": 0.8555555555555555,
+      "tier_kappa": 0.770227808326787,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 0.5789473684210527,
+          "recall": 1.0,
+          "f1": 0.7333333333333334,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 12
+        },
+        "C5": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5,
+          "f1": 0.588235294117647,
+          "support": 10
+        },
+        "C6": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "C7": {
+          "precision": 0.47619047619047616,
+          "recall": 1.0,
+          "f1": 0.6451612903225806,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 45,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 46,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 47,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 48,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 49,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 50,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 56,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 57,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 58,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 59,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 60,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 61,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 62,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 63,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 64,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 65,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 66,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 67,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 68,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 69,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 70,
+          "gold": "C6",
+          "predicted": "C3"
+        }
+      ]
+    }
+  },
+  "google/gemini-3.1-flash-lite#run2": {
+    "all_120": {
+      "n": 120,
+      "accuracy": 0.5666666666666667,
+      "macro_f1": 0.660531503218801,
+      "cohen_kappa": 0.5254031031335564,
+      "tier_accuracy": 0.8916666666666667,
+      "tier_kappa": 0.7990208709095594,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 0.2558139534883721,
+          "recall": 1.0,
+          "f1": 0.40740740740740744,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 12
+        },
+        "C5": {
+          "precision": 0.4166666666666667,
+          "recall": 0.5,
+          "f1": 0.45454545454545453,
+          "support": 10
+        },
+        "C6": {
+          "precision": 1.0,
+          "recall": 0.025,
+          "f1": 0.04878048780487806,
+          "support": 40
+        },
+        "C7": {
+          "precision": 0.47619047619047616,
+          "recall": 1.0,
+          "f1": 0.6451612903225806,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 45,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 46,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 47,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 48,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 49,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 50,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 56,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 57,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 58,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 59,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 60,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 61,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 62,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 63,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 64,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 65,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 66,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 67,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 68,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 69,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 70,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 91,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 92,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 93,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 94,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 95,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 96,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 97,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 98,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 99,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 100,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 101,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 102,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 103,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 104,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 105,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 106,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 107,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 108,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 109,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 110,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 111,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 112,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 113,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 114,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 115,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 116,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 117,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 119,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 120,
+          "gold": "C6",
+          "predicted": "C3"
+        }
+      ]
+    },
+    "balanced_90": {
+      "n": 90,
+      "accuracy": 0.7444444444444445,
+      "macro_f1": 0.7061798674069389,
+      "cohen_kappa": 0.7125798389336295,
+      "tier_accuracy": 0.8555555555555555,
+      "tier_kappa": 0.770227808326787,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 0.5789473684210527,
+          "recall": 1.0,
+          "f1": 0.7333333333333334,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 12
+        },
+        "C5": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5,
+          "f1": 0.588235294117647,
+          "support": 10
+        },
+        "C6": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "C7": {
+          "precision": 0.47619047619047616,
+          "recall": 1.0,
+          "f1": 0.6451612903225806,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 45,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 46,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 47,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 48,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 49,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 50,
+          "gold": "C4",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 56,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 57,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 58,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 59,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 60,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 61,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 62,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 63,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 64,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 65,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 66,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 67,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 68,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 69,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 70,
+          "gold": "C6",
+          "predicted": "C3"
+        }
+      ]
+    }
+  },
+  "google/gemini-3.1-flash-lite#run3": {
+    "all_120": {
+      "n": 120,
+      "accuracy": 0.6416666666666667,
+      "macro_f1": 0.7421183754517089,
+      "cohen_kappa": 0.6045370938074801,
+      "tier_accuracy": 0.9416666666666667,
+      "tier_kappa": 0.8863328822733423,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 0.2682926829268293,
+          "recall": 1.0,
+          "f1": 0.4230769230769231,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "support": 12
+        },
+        "C5": {
+          "precision": 0.45454545454545453,
+          "recall": 0.5,
+          "f1": 0.47619047619047616,
+          "support": 10
+        },
+        "C6": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.18181818181818182,
+          "support": 40
+        },
+        "C7": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 56,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 57,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 58,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 59,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 60,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 61,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 62,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 63,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 64,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 65,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 66,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 67,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 68,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 69,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 70,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 91,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 92,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 94,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 96,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 98,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 99,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 100,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 101,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 102,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 103,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 104,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 105,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 106,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 107,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 108,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 109,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 110,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 111,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 112,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 113,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 114,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 115,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 116,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 117,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 119,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 120,
+          "gold": "C6",
+          "predicted": "C3"
+        }
+      ]
+    },
+    "balanced_90": {
+      "n": 90,
+      "accuracy": 0.8111111111111111,
+      "macro_f1": 0.7688387139367532,
+      "cohen_kappa": 0.7872044506258693,
+      "tier_accuracy": 0.9222222222222223,
+      "tier_kappa": 0.8714285714285716,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 0.5789473684210527,
+          "recall": 1.0,
+          "f1": 0.7333333333333334,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "support": 12
+        },
+        "C5": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5,
+          "f1": 0.588235294117647,
+          "support": 10
+        },
+        "C6": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "C7": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 56,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 57,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 58,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 59,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 60,
+          "gold": "C5",
+          "predicted": "C7"
+        },
+        {
+          "human_id": 61,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 62,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 63,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 64,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 65,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 66,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 67,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 68,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 69,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 70,
+          "gold": "C6",
+          "predicted": "C3"
+        }
+      ]
+    }
+  },
+  "moonshotai/kimi-k2.5#run1": {
+    "all_120": {
+      "n": 120,
+      "accuracy": 0.925,
+      "macro_f1": 0.9201683501683502,
+      "cohen_kappa": 0.9110598698838838,
+      "tier_accuracy": 0.9666666666666667,
+      "tier_kappa": 0.9309551208285386,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "support": 8
+        },
+        "C2": {
+          "precision": 0.8181818181818182,
+          "recall": 1.0,
+          "f1": 0.9,
+          "support": 9
+        },
+        "C3": {
+          "precision": 0.7857142857142857,
+          "recall": 1.0,
+          "f1": 0.88,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "support": 12
+        },
+        "C5": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 10
+        },
+        "C6": {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333333333333333,
+          "support": 40
+        },
+        "C7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 18,
+          "gold": "C1",
+          "predicted": "C2"
+        },
+        {
+          "human_id": 19,
+          "gold": "C1",
+          "predicted": "C2"
+        },
+        {
+          "human_id": 91,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 101,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 102,
+          "gold": "C6",
+          "predicted": "C5"
+        },
+        {
+          "human_id": 106,
+          "gold": "C6",
+          "predicted": "C3"
+        },
+        {
+          "human_id": 112,
+          "gold": "C6",
+          "predicted": "C3"
+        }
+      ]
+    },
+    "balanced_90": {
+      "n": 90,
+      "accuracy": 0.9555555555555556,
+      "macro_f1": 0.951010101010101,
+      "cohen_kappa": 0.9499722067815454,
+      "tier_accuracy": 0.9555555555555556,
+      "tier_kappa": 0.9229452054794521,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "support": 8
+        },
+        "C2": {
+          "precision": 0.8181818181818182,
+          "recall": 1.0,
+          "f1": 0.9,
+          "support": 9
+        },
+        "C3": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 11
+        },
+        "C4": {
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "support": 12
+        },
+        "C5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C6": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 18,
+          "gold": "C1",
+          "predicted": "C2"
+        },
+        {
+          "human_id": 19,
+          "gold": "C1",
+          "predicted": "C2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "n_questions": 12,
+  "available_questions": 8,
+  "coverage": 0.6666666666666666,
+  "gate_passed": true,
+  "results": [
+    {
+      "instance_id": "autocast_G10",
+      "cutoff": "2015-09-01",
+      "source_url": "http://www.popularmechanics.com/space/rockets/a10184/what-happens-if-russia-refuses-to-fly-us-astronauts-16555991/",
+      "snapshot_timestamp": "20150815134242",
+      "snapshot_url": "https://web.archive.org/web/20150815134242id_/http://www.popularmechanics.com/space/rockets/a10184/what-happens-if-russia-refuses-to-fly-us-astronauts-16555991/",
+      "available": true,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_G280",
+      "cutoff": "2016-09-13",
+      "source_url": "http://www.telegraph.co.uk/travel/maps-and-graphics/Mapped-Terror-threat-around-the-world/",
+      "snapshot_timestamp": "20160823043239",
+      "snapshot_url": "https://web.archive.org/web/20160823043239id_/http://www.telegraph.co.uk:80/travel/maps-and-graphics/Mapped-Terror-threat-around-the-world/",
+      "available": true,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_M553",
+      "cutoff": "2017-09-14",
+      "source_url": "https://www.cboe.com/micro/vix/vixintro.aspx",
+      "snapshot_timestamp": "20170215191256",
+      "snapshot_url": "https://web.archive.org/web/20170215191256id_/http://www.cboe.com/micro/VIX/vixintro.aspx",
+      "available": true,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_M2588",
+      "cutoff": "2019-01-28",
+      "source_url": "https://finance.yahoo.com/quote/TSLA/?guccounter=1",
+      "snapshot_timestamp": "20180930060522",
+      "snapshot_url": "https://web.archive.org/web/20180930060522id_/https://finance.yahoo.com/quote/TSLA/?guccounter=1",
+      "available": true,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_G1564",
+      "cutoff": "2020-03-20",
+      "source_url": "",
+      "snapshot_timestamp": null,
+      "snapshot_url": null,
+      "available": false,
+      "error": "missing_source_url"
+    },
+    {
+      "instance_id": "autocast_M5820",
+      "cutoff": "2020-12-01",
+      "source_url": "https://forum.effectivealtruism.org/posts/oofn93HmgrRT6whgP/opportunity-to-increase-ea-org-funding-by-usd200k-year-if-a",
+      "snapshot_timestamp": null,
+      "snapshot_url": null,
+      "available": false,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_G1993",
+      "cutoff": "2021-04-30",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210922a.htm",
+      "snapshot_timestamp": null,
+      "snapshot_url": null,
+      "available": false,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_G6",
+      "cutoff": "2015-09-01",
+      "source_url": "https://en.wikipedia.org/wiki/Li_Keqiang",
+      "snapshot_timestamp": "20150721062718",
+      "snapshot_url": "https://web.archive.org/web/20150721062718id_/https://en.wikipedia.org/wiki/Li_Keqiang",
+      "available": true,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_M259",
+      "cutoff": "2016-06-17",
+      "source_url": "http://www.vox.com/2016/6/16/11954878/hillary-clinton-vice-president-veepstakes",
+      "snapshot_timestamp": "20160617141448",
+      "snapshot_url": "https://web.archive.org/web/20160617141448id_/http://www.vox.com/2016/6/16/11954878/hillary-clinton-vice-president-veepstakes",
+      "available": true,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_M508",
+      "cutoff": "2017-08-10",
+      "source_url": "http://www.gallup.com/poll/203198/presidential-approval-ratings-donald-trump.aspx",
+      "snapshot_timestamp": "20170810182848",
+      "snapshot_url": "https://web.archive.org/web/20170810182848id_/http://www.gallup.com:80/poll/203198/presidential-approval-ratings-donald-trump.aspx",
+      "available": true,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_M1333",
+      "cutoff": "2018-08-10",
+      "source_url": "https://www.metaculus.com/questions/599/will-donald-trump-jr-be-charge-with-a-crime-by-presidents-day-2018/",
+      "snapshot_timestamp": "20180626064436",
+      "snapshot_url": "https://web.archive.org/web/20180626064436id_/https://www.metaculus.com/questions/599/will-donald-trump-jr-be-charge-with-a-crime-by-presidents-day-2018/",
+      "available": true,
+      "error": null
+    },
+    {
+      "instance_id": "autocast_G1477",
+      "cutoff": "2020-01-03",
+      "source_url": "",
+      "snapshot_timestamp": null,
+      "snapshot_url": null,
+      "available": false,
+      "error": "missing_source_url"
+    }
+  ]
+}

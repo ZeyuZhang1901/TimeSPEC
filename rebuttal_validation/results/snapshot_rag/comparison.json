@@ -1,0 +1,41 @@
+{
+  "snapshot_coverage": 0.6666666666666666,
+  "matched_question_ids": [
+    "autocast_G10",
+    "autocast_G280",
+    "autocast_G6",
+    "autocast_M1333",
+    "autocast_M2588",
+    "autocast_M259",
+    "autocast_M508",
+    "autocast_M553"
+  ],
+  "methods": {
+    "snapshot_rag": {
+      "n": 8,
+      "performance": 0.821875,
+      "olr": 0.05625,
+      "dclr": 0.05429824561403508,
+      "reconstruction_gap": 0.2525,
+      "high_medium_faithfulness_rate": 0.5
+    },
+    "live_temporal_rag": {
+      "n": 8,
+      "performance": 0.8796875000000001,
+      "olr": 0.1125,
+      "dclr": 0.14509911894273125,
+      "reconstruction_gap": 0.04000000000000002,
+      "high_medium_faithfulness_rate": 0.875
+    },
+    "timespec": {
+      "n": 8,
+      "performance": 0.8528625000000001,
+      "olr": 0.0,
+      "dclr": 0.0,
+      "reconstruction_gap": 0.09125000000000003,
+      "high_medium_faithfulness_rate": 0.75
+    }
+  },
+  "snapshot_dclr_reduction_vs_live": 0.6257851459768966,
+  "timespec_dclr_reduction_vs_live": 1.0
+}

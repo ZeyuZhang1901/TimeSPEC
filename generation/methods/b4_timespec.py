@@ -67,7 +67,7 @@ def generate(
             build_generation_prompt(inst, context_block=context_map.get(inst.instance_id, ""))
             for inst in instances
         ]
-        phase1_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size)
+        phase1_texts = generator.generate_batch(prompt_inputs, batch_size=cfg.batch_size, stage="phase1b_generation")
 
     ts = datetime.now(timezone.utc).isoformat()
 
@@ -162,7 +162,7 @@ def _run_instance(
             leaked_claim_ids=this_leaked,
             previous_evidence=evidence,
         )
-        current_text = generator.generate_one(regen_sys, regen_usr)
+        current_text = generator.generate_one(regen_sys, regen_usr, stage="regeneration")
         logger.info(
             "B4 regen cycle %d for %s: %d leaked claims",
             cycle + 1, inst.instance_id, len(this_leaked),
@@ -189,7 +189,7 @@ def _run_instance(
         # guard silently skipped the aggregation step.
         agg_sys, agg_usr = build_aggregator_prompt(inst, deduped_evidence)
         try:
-            agg_text = generator.generate_one(agg_sys, agg_usr)
+            agg_text = generator.generate_one(agg_sys, agg_usr, stage="aggregation")
             parsed_agg = parse_completion(inst.answer_type, agg_text)
             if parsed_agg is not None:
                 parsed_final = parsed_agg

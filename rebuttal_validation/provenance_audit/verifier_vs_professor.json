@@ -1,0 +1,101 @@
+{
+  "judge_model": "google/gemini-3.1-flash-lite",
+  "gold_definition": "Professor claim-level public knowability: A=safe, B=leaked",
+  "excluded": {
+    "R006": "factually false",
+    "R022": "factually false",
+    "R040": "temporally disputed/borderline"
+  },
+  "n": 27,
+  "accuracy": 0.6666666666666666,
+  "precision": 0.1,
+  "recall": 1.0,
+  "f1": 0.18181818181818182,
+  "tp": 1,
+  "fp": 9,
+  "tn": 17,
+  "fn": 0,
+  "disagreements": [
+    {
+      "sample_id": "R012",
+      "gold_is_leaked": false,
+      "predicted_category": "C7",
+      "predicted_effective_date": "2020-01-28",
+      "predicted_is_leaked": true,
+      "confidence": "high",
+      "reason": "The claim directly addresses the target outcome (whether Netanyahu will cease to be PM before 2021), which is a future-dated event relative to the cutoff. Per the C7 rule, this is leaked by definition."
+    },
+    {
+      "sample_id": "R042",
+      "gold_is_leaked": false,
+      "predicted_category": "C3",
+      "predicted_effective_date": "2018-01-15",
+      "predicted_is_leaked": true,
+      "confidence": "medium",
+      "reason": "The claim cites specific annual market share data for 2017 (2.6%), which could only be publicly verified after the release of full-year 2017 automotive statistics by the Kraftfahrt-Bundesamt (KBA) in early 2018. This date is after the 2016-05-17 cutoff."
+    },
+    {
+      "sample_id": "R074",
+      "gold_is_leaked": false,
+      "predicted_category": "C7",
+      "predicted_effective_date": "2015-11-17",
+      "predicted_is_leaked": true,
+      "confidence": "high",
+      "reason": "The claim directly addresses the target outcome (the opening date of the Panama Canal expansion) and its resolution, which occurs after the cutoff date."
+    },
+    {
+      "sample_id": "R069",
+      "gold_is_leaked": false,
+      "predicted_category": "C7",
+      "predicted_effective_date": "2015-11-01",
+      "predicted_is_leaked": true,
+      "confidence": "high",
+      "reason": "The claim discusses the status of a trilateral summit that resolves after the cutoff date; it is classified as C7 because it directly addresses the target outcome."
+    },
+    {
+      "sample_id": "R027",
+      "gold_is_leaked": false,
+      "predicted_category": "C7",
+      "predicted_effective_date": "2021-01-01",
+      "predicted_is_leaked": true,
+      "confidence": "high",
+      "reason": "The claim directly addresses the target outcome (the signing of a GERD agreement) and its status relative to the target resolution window, falling under C7 (Target Outcome) as it discusses the failure to reach the agreement specified in the prompt."
+    },
+    {
+      "sample_id": "R070",
+      "gold_is_leaked": false,
+      "predicted_category": "C7",
+      "predicted_effective_date": "2017-12-21",
+      "predicted_is_leaked": true,
+      "confidence": "high",
+      "reason": "The claim describes the outcome of the Catalan regional election (held Dec 21, 2017), which resolves the target outcome. Per the taxonomy, C7 claims are leaked by definition as they resolve after the cutoff."
+    },
+    {
+      "sample_id": "R072",
+      "gold_is_leaked": false,
+      "predicted_category": "C7",
+      "predicted_effective_date": "2017-12-21",
+      "predicted_is_leaked": true,
+      "confidence": "high",
+      "reason": "The claim reports the final vote shares and seat counts for the 2017 Catalan regional election, which are outcomes of an event occurring after the cutoff date of 2017-11-29. This falls under C7 (Target Outcome)."
+    },
+    {
+      "sample_id": "R075",
+      "gold_is_leaked": false,
+      "predicted_category": "C7",
+      "predicted_effective_date": "2015-11-17",
+      "predicted_is_leaked": true,
+      "confidence": "medium",
+      "reason": "The claim directly addresses the target outcome (the opening date of the expanded Panama Canal) and provides status updates that resolve after the cutoff date. Per the C7 rule, this is leaked by definition."
+    },
+    {
+      "sample_id": "R073",
+      "gold_is_leaked": false,
+      "predicted_category": "C7",
+      "predicted_effective_date": "2016-06-26",
+      "predicted_is_leaked": true,
+      "confidence": "high",
+      "reason": "The claim discusses the specific opening date of the Panama Canal expansion, which is the target outcome of the prediction. Per the C7 rule, this is leaked because the event resolves after the cutoff date."
+    }
+  ]
+}

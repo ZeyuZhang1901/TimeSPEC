@@ -1,0 +1,177 @@
+[
+  {
+    "instance_id": "autocast_G10",
+    "method": "b1",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "Russia imposed a food embargo on imports from the US, EU, Canada, Australia, and Norway in August 2014 as retaliation for Western sanctions.",
+        "source_date": "2014-08-06"
+      },
+      {
+        "id": 2,
+        "fact": "On August 6, 2015, Russian President Vladimir Putin signed a decree extending the food embargo for one year, effective until August 5, 2016.",
+        "source_date": "2015-08-06"
+      },
+      {
+        "id": 3,
+        "fact": "In June 2015, Russia added Iceland, Albania, Montenegro, and Liechtenstein to the list of countries subject to the food embargo.",
+        "source_date": "2015-06-02"
+      },
+      {
+        "id": 4,
+        "fact": "As of September 2015, there were no official announcements or reports indicating that Russia intended to lift the food embargo on any of the listed countries before August 6, 2016.",
+        "source_date": "2015-09-08"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "Russia officially extended its food embargo on August 6, 2015, for a full year, setting the expiration date for the current embargo period at August 5, 2016 [2]. The embargo covers the US, EU member states, Canada, Australia, Norway, and the additional countries of Iceland, Albania, Montenegro, and Liechtenstein [1, 3]. As of the latest available information in September 2015, there was no indication or official statement from the Russian government suggesting a partial or full lifting of the embargo prior to the August 6, 2016 deadline [4]. Given the explicit one-year extension signed in August 2015, the embargo was legally in force until the specified date, making a lift before that date highly unlikely based on the available evidence.",
+    "probability": 0.05,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"Russia imposed a food embargo on imports from the US, EU, Canada, Australia, and Norway in August 2014 as retaliation for Western sanctions.\",\n      \"source_date\": \"2014-08-06\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"On August 6, 2015, Russian President Vladimir Putin signed a decree extending the food embargo for one year, effective until August 5, 2016.\",\n      \"source_date\": \"2015-08-06\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"In June 2015, Russia added Iceland, Albania, Montenegro, and Liechtenstein to the list of countries subject to the food embargo.\",\n      \"source_date\": \"2015-06-02\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"As of September 2015, there were no official announcements or reports indicating that Russia intended to lift the food embargo on any of the listed countries before August 6, 2016.\",\n      \"source_date\": \"2015-09-08\"\n    }\n  ],\n  \"reasoning\": \"Russia officially extended its food embargo on August 6, 2015, for a full year, setting the expiration date for the current embargo period at August 5, 2016 [2]. The embargo covers the US, EU member states, Canada, Australia, Norway, and the additional countries of Iceland, Albania, Montenegro, and Liechtenstein [1, 3]. As of the latest available information in September 2015, there was no indication or official statement from the Russian government suggesting a partial or full lifting of the embargo prior to the August 6, 2016 deadline [4]. Given the explicit one-year extension signed in August 2015, the embargo was legally in force until the specified date, making a lift before that date highly unlikely based on the available evidence.\",\n  \"probability_yes\": 0.05,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:14.702727+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  },
+  {
+    "instance_id": "autocast_G106",
+    "method": "b1",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "The UNHCR reported that there were 361,678 arrivals by sea in Europe in 2016.",
+        "source_date": "2017-01-15"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "The question asks whether more than 1 million refugees and migrants arrived in Europe by sea in 2016. According to the available data from the UNHCR, the total number of arrivals by sea in 2016 was 361,678 [1]. This figure is significantly lower than the 1 million threshold specified in the question. Therefore, the condition of more than 1 million arrivals was not met.",
+    "probability": 0.0,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"The UNHCR reported that there were 361,678 arrivals by sea in Europe in 2016.\",\n      \"source_date\": \"2017-01-15\"\n    }\n  ],\n  \"reasoning\": \"The question asks whether more than 1 million refugees and migrants arrived in Europe by sea in 2016. According to the available data from the UNHCR, the total number of arrivals by sea in 2016 was 361,678 [1]. This figure is significantly lower than the 1 million threshold specified in the question. Therefore, the condition of more than 1 million arrivals was not met.\",\n  \"probability_yes\": 0.0,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:14.702727+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  },
+  {
+    "instance_id": "autocast_G127",
+    "method": "b1",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "In late September 2015, the Colombian government and FARC publicly pledged to conclude a peace deal within six months.",
+        "source_date": "2015-09-26"
+      },
+      {
+        "id": 2,
+        "fact": "On November 24, 2015, the Colombian government and FARC signed a revised peace agreement in Cartagena, Colombia, after the Colombian Congress rejected the initial agreement in a plebiscite on October 2, 2015.",
+        "source_date": "2015-11-24"
+      },
+      {
+        "id": 3,
+        "fact": "The revised peace agreement signed on November 24, 2015, was ratified by the Colombian Congress on November 30, 2015.",
+        "source_date": "2015-11-30"
+      }
+    ],
+    "prediction": "yes",
+    "reasoning": "The Colombian government and FARC initially pledged in late September 2015 to conclude a deal within six months [1]. Following the rejection of an initial agreement in a plebiscite on October 2, 2015, the parties negotiated a revised agreement. This revised final peace agreement was successfully signed on November 24, 2015 [2], which is well before the May 1, 2016 deadline. The agreement was subsequently ratified by the Colombian Congress on November 30, 2015 [3]. Therefore, the signing of the final peace agreement occurred prior to the specified date.",
+    "probability": 1.0,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"In late September 2015, the Colombian government and FARC publicly pledged to conclude a peace deal within six months.\",\n      \"source_date\": \"2015-09-26\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"On November 24, 2015, the Colombian government and FARC signed a revised peace agreement in Cartagena, Colombia, after the Colombian Congress rejected the initial agreement in a plebiscite on October 2, 2015.\",\n      \"source_date\": \"2015-11-24\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"The revised peace agreement signed on November 24, 2015, was ratified by the Colombian Congress on November 30, 2015.\",\n      \"source_date\": \"2015-11-30\"\n    }\n  ],\n  \"reasoning\": \"The Colombian government and FARC initially pledged in late September 2015 to conclude a deal within six months [1]. Following the rejection of an initial agreement in a plebiscite on October 2, 2015, the parties negotiated a revised agreement. This revised final peace agreement was successfully signed on November 24, 2015 [2], which is well before the May 1, 2016 deadline. The agreement was subsequently ratified by the Colombian Congress on November 30, 2015 [3]. Therefore, the signing of the final peace agreement occurred prior to the specified date.\",\n  \"probability_yes\": 1.0,\n  \"prediction\": \"yes\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:14.702727+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  },
+  {
+    "instance_id": "autocast_G130",
+    "method": "b1",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "The Early Warning Project identified Myanmar as the country with the greatest risk of an onset of new state-led mass killing in its 2015 statistical risk assessments.",
+        "source_date": "2015-12-01"
+      },
+      {
+        "id": 2,
+        "fact": "In 2016, the Early Warning Project did not find evidence of a new mass killing episode in Myanmar, noting that the country was already experiencing a mass killing episode targeting separatist groups and the Karen.",
+        "source_date": "2016-12-31"
+      },
+      {
+        "id": 3,
+        "fact": "The Early Warning Project resolved the specific question regarding a new episode of mass killing in Myanmar before 1 January 2017 as 'no' based on publicly available secondary sources.",
+        "source_date": "2016-12-31"
+      }
+    ],
+    "prediction": "no",
+    "reasoning": "The Early Warning Project's 2015 risk assessment flagged Myanmar as the highest risk for a new state-led mass killing episode [1]. However, the project's final determination for the period ending 31 December 2016 concluded that no new episode of mass killing occurred in Myanmar during that year, distinguishing the ongoing conflict with separatist groups from a new episode with different targets or perpetrators [2]. Consequently, the project resolved the specific prediction question as 'no' [3].",
+    "probability": 0.0,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"The Early Warning Project identified Myanmar as the country with the greatest risk of an onset of new state-led mass killing in its 2015 statistical risk assessments.\",\n      \"source_date\": \"2015-12-01\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"In 2016, the Early Warning Project did not find evidence of a new mass killing episode in Myanmar, noting that the country was already experiencing a mass killing episode targeting separatist groups and the Karen.\",\n      \"source_date\": \"2016-12-31\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"The Early Warning Project resolved the specific question regarding a new episode of mass killing in Myanmar before 1 January 2017 as 'no' based on publicly available secondary sources.\",\n      \"source_date\": \"2016-12-31\"\n    }\n  ],\n  \"reasoning\": \"The Early Warning Project's 2015 risk assessment flagged Myanmar as the highest risk for a new state-led mass killing episode [1]. However, the project's final determination for the period ending 31 December 2016 concluded that no new episode of mass killing occurred in Myanmar during that year, distinguishing the ongoing conflict with separatist groups from a new episode with different targets or perpetrators [2]. Consequently, the project resolved the specific prediction question as 'no' [3].\",\n  \"probability_yes\": 0.0,\n  \"prediction\": \"no\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:14.702727+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  },
+  {
+    "instance_id": "autocast_G133",
+    "method": "b1",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "answer_type": "binary",
+    "evidence": [
+      {
+        "id": 1,
+        "fact": "Google's AlphaGo program defeated professional Go player Fan Hui in a 5-game match in October 2015, marking the first time a computer program had beaten a professional Go player without handicaps.",
+        "source_date": "2015-10-27"
+      },
+      {
+        "id": 2,
+        "fact": "Google DeepMind announced a five-game match between AlphaGo and Lee Sedol, the world champion, to be held in Seoul, South Korea, in March 2016.",
+        "source_date": "2016-01-27"
+      },
+      {
+        "id": 3,
+        "fact": "Lee Sedol is widely recognized as the most successful Go player in history, with 18 world titles as of early 2016.",
+        "source_date": "2016-01-01"
+      },
+      {
+        "id": 4,
+        "fact": "Prior to the match, AlphaGo had demonstrated superior performance against top European players and had a strong track record in computer Go tournaments.",
+        "source_date": "2015-12-15"
+      }
+    ],
+    "prediction": "yes",
+    "reasoning": "Based on the evidence, AlphaGo had already proven its capability by defeating a professional player (Fan Hui) without handicaps in October 2015 [1]. The match against Lee Sedol was scheduled for March 2016, indicating high confidence from Google DeepMind in AlphaGo's readiness [2]. While Lee Sedol is the world champion with 18 titles [3], AlphaGo's previous victory over a professional and its advanced algorithmic capabilities suggest a strong probability of success [4]. However, Go is a game of immense complexity, and no definitive outcome was publicly known before the match occurred. The prediction relies on the strength of AlphaGo's prior performance and the confidence of its creators.",
+    "probability": 0.85,
+    "probabilities": null,
+    "raw_text": "{\n  \"evidence\": [\n    {\n      \"id\": 1,\n      \"fact\": \"Google's AlphaGo program defeated professional Go player Fan Hui in a 5-game match in October 2015, marking the first time a computer program had beaten a professional Go player without handicaps.\",\n      \"source_date\": \"2015-10-27\"\n    },\n    {\n      \"id\": 2,\n      \"fact\": \"Google DeepMind announced a five-game match between AlphaGo and Lee Sedol, the world champion, to be held in Seoul, South Korea, in March 2016.\",\n      \"source_date\": \"2016-01-27\"\n    },\n    {\n      \"id\": 3,\n      \"fact\": \"Lee Sedol is widely recognized as the most successful Go player in history, with 18 world titles as of early 2016.\",\n      \"source_date\": \"2016-01-01\"\n    },\n    {\n      \"id\": 4,\n      \"fact\": \"Prior to the match, AlphaGo had demonstrated superior performance against top European players and had a strong track record in computer Go tournaments.\",\n      \"source_date\": \"2015-12-15\"\n    }\n  ],\n  \"reasoning\": \"Based on the evidence, AlphaGo had already proven its capability by defeating a professional player (Fan Hui) without handicaps in October 2015 [1]. The match against Lee Sedol was scheduled for March 2016, indicating high confidence from Google DeepMind in AlphaGo's readiness [2]. While Lee Sedol is the world champion with 18 titles [3], AlphaGo's previous victory over a professional and its advanced algorithmic capabilities suggest a strong probability of success [4]. However, Go is a game of immense complexity, and no definitive outcome was publicly known before the match occurred. The prediction relies on the strength of AlphaGo's prior performance and the confidence of its creators.\",\n  \"probability_yes\": 0.85,\n  \"prediction\": \"yes\"\n}",
+    "parse_success": true,
+    "regen_cycles": 0,
+    "leaked_claim_ids": [],
+    "timestamp": "2026-08-04T02:24:14.702727+00:00",
+    "ranking": null,
+    "probability_petitioner": null,
+    "predicted_salary": null
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "n": 100,
+  "auto_counts": {
+    "A": 75,
+    "B": 22,
+    "C": 3
+  },
+  "high_confidence_counts": {
+    "A": 75,
+    "B": 22,
+    "C": 3
+  },
+  "pre_snapshot_available": 9,
+  "pre_snapshot_text_usable": 9,
+  "human_verification_file": "/Users/stevenzhang/Downloads/LeakageEvaluationFramework/rebuttal_validation/provenance_audit/human_verification.csv"
+}

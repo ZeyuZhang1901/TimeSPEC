@@ -1,0 +1,32 @@
+{
+  "faithfulness_counts": {
+    "high_faithfulness": 1,
+    "low_faithfulness": 4,
+    "medium_faithfulness": 3,
+    "not_applicable": 0
+  },
+  "faithfulness_rate_high_or_medium": 0.5,
+  "full_reconstruction_gap": {
+    "mean": 0.2525,
+    "std": 0.27447352201207725
+  },
+  "n_instances": 8,
+  "olr": {
+    "mean": 0.05625,
+    "std": 0.10500850305706541
+  },
+  "performance": {
+    "mean": 0.821875,
+    "std": 0.3030580743497382
+  },
+  "shapley_computed": 8,
+  "shapley_dclr": {
+    "mean": 0.05429824561403508,
+    "std": 0.10205865837318133
+  },
+  "shapley_skipped_no_leakage": 0,
+  "total_claims": 41,
+  "total_coalitions_evaluated": 352,
+  "total_leaked_claims": 2,
+  "total_model_calls": 344
+}

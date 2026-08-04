@@ -1,0 +1,20 @@
+{
+  "checkpoint_every": 20,
+  "concurrency": 1,
+  "dataset_path": "/home/pcv1327/RL-Based-Temporal-Prevention/LeakageEvaluationFramework copy/camera_ready/e6_cost/sample_100.jsonl",
+  "input_path": "/home/pcv1327/RL-Based-Temporal-Prevention/LeakageEvaluationFramework copy/camera_ready/e6_cost/full/b1/completions.json",
+  "instance_ids_filter": null,
+  "method": "b1",
+  "model": "qwen/qwen3.5-35b-a3b",
+  "n_instances": 87,
+  "n_resumed_from": 0,
+  "shapley_backend": "openrouter",
+  "shapley_estimator_config": {
+    "coalition_budget_c": 15.0,
+    "coalition_budget_cap": 1200,
+    "exact_threshold_n": 8,
+    "random_seed": 42,
+    "skip_if_no_leakage": false
+  },
+  "taxonomy_backend": "llm"
+}

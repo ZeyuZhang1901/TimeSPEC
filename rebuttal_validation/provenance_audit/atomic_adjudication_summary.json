@@ -1,0 +1,31 @@
+{
+  "n_flagged_atomic_claims": 43,
+  "human_label_counts": {
+    "B": 16,
+    "F": 20,
+    "A": 6,
+    "C": 1
+  },
+  "temporally_scorable_flagged_claims": 22,
+  "flagged_claim_precision_for_post_cutoff": 0.7272727272727273,
+  "factual_error_rate_among_flagged": 0.46511627906976744,
+  "unresolved_rate_among_flagged": 0.023255813953488372,
+  "n_parent_paragraphs": 9,
+  "parents_with_at_least_one_confirmed_post_cutoff_claim": 8,
+  "parent_level_contamination_precision": 0.8888888888888888,
+  "parents_without_confirmed_post_cutoff_claim": [
+    "R042"
+  ],
+  "adjudicated_parent_status": {
+    "n": 27,
+    "accuracy": 0.9629629629629629,
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1": 0.9473684210526316,
+    "tp": 9,
+    "fp": 1,
+    "tn": 17,
+    "fn": 0
+  },
+  "interpretation": "Precision is conditional on claims the verifier flagged; safe-claim recall/overall accuracy requires human labels for an additional sample of automatically safe atomic claims."
+}

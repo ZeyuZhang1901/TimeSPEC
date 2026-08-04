@@ -1,0 +1,102 @@
+{
+  "n_overlap": 30,
+  "n_temporally_scorable": 28,
+  "n_factual_invalid": 2,
+  "exact_temporal_agreement": 0.5357142857142857,
+  "cohen_kappa": 0.07614213197969535,
+  "disagreements": [
+    {
+      "sample_id": "R012",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Netanyahu's ministerial resignations and refusal to resign as prime minister were reported before cutoff."
+    },
+    {
+      "sample_id": "R017",
+      "student_label": "C",
+      "professor_label": "A",
+      "note": "Pre-cutoff global/African supply-chain analyses existed; UAE-specific coverage was scarce."
+    },
+    {
+      "sample_id": "R042",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "German EV incentive approval and funding details were reported before cutoff."
+    },
+    {
+      "sample_id": "R081",
+      "student_label": "C",
+      "professor_label": "A",
+      "note": "Election and results predated cutoff, though the claim's premise is inaccurate."
+    },
+    {
+      "sample_id": "R005",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Timeframe is pre-cutoff, though the claim is factually inaccurate."
+    },
+    {
+      "sample_id": "R069",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Pre-summit state and scheduled November summit were known before cutoff."
+    },
+    {
+      "sample_id": "R027",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "AU-mediated GERD progress was reported before cutoff."
+    },
+    {
+      "sample_id": "R007",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Nigeria polio status was known before cutoff."
+    },
+    {
+      "sample_id": "R070",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Pre-election polling range was reported before cutoff."
+    },
+    {
+      "sample_id": "R072",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Party and coalition composition was known before cutoff."
+    },
+    {
+      "sample_id": "R075",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Canal cracks and repair timeline were documented before cutoff."
+    },
+    {
+      "sample_id": "R040",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Professor labeled pre-cutoff but noted the formal package adoption occurred one day after cutoff; requires adjudication."
+    },
+    {
+      "sample_id": "R073",
+      "student_label": "B",
+      "professor_label": "A",
+      "note": "Canal project timeline and delays were documented before cutoff."
+    }
+  ],
+  "factual_invalid": [
+    {
+      "sample_id": "R022",
+      "student_label": "B",
+      "professor_label": "F",
+      "note": "Factually false: Strickland won the Democratic primary."
+    },
+    {
+      "sample_id": "R006",
+      "student_label": "B",
+      "professor_label": "F",
+      "note": "Factually false: a new European Arrest Warrant was active before cutoff."
+    }
+  ],
+  "adjudication_note": "F denotes a factually false/unsupported claim and is excluded from A/B/C temporal agreement. R040 should be adjudicated because the professor note identifies a post-cutoff formal adoption date."
+}

@@ -1,0 +1,239 @@
+{
+  "n_matched": 200,
+  "n_common": 159,
+  "methods": {
+    "snapshot_rag": {
+      "performance": {
+        "mean": 0.7898,
+        "ci95": [
+          0.7365,
+          0.8402
+        ],
+        "n": 159
+      },
+      "olr": {
+        "mean": 0.0291,
+        "ci95": [
+          0.0165,
+          0.0438
+        ],
+        "n": 159
+      },
+      "shapley_dclr": {
+        "mean": 0.0363,
+        "ci95": [
+          0.0172,
+          0.0601
+        ],
+        "n": 159
+      },
+      "full_reconstruction_gap": {
+        "mean": 0.1619,
+        "ci95": [
+          0.1269,
+          0.1995
+        ],
+        "n": 159
+      },
+      "high_medium_faithfulness_rate": 0.6478
+    },
+    "b3": {
+      "performance": {
+        "mean": 0.803,
+        "ci95": [
+          0.7458,
+          0.8559
+        ],
+        "n": 159
+      },
+      "olr": {
+        "mean": 0.027,
+        "ci95": [
+          0.0144,
+          0.0413
+        ],
+        "n": 159
+      },
+      "shapley_dclr": {
+        "mean": 0.0325,
+        "ci95": [
+          0.0164,
+          0.0519
+        ],
+        "n": 159
+      },
+      "full_reconstruction_gap": {
+        "mean": 0.1193,
+        "ci95": [
+          0.086,
+          0.1555
+        ],
+        "n": 159
+      },
+      "high_medium_faithfulness_rate": 0.7673
+    },
+    "b4": {
+      "performance": {
+        "mean": 0.8073,
+        "ci95": [
+          0.7534,
+          0.8577
+        ],
+        "n": 159
+      },
+      "olr": {
+        "mean": 0.0166,
+        "ci95": [
+          0.0066,
+          0.029
+        ],
+        "n": 159
+      },
+      "shapley_dclr": {
+        "mean": 0.0183,
+        "ci95": [
+          0.0069,
+          0.0324
+        ],
+        "n": 159
+      },
+      "full_reconstruction_gap": {
+        "mean": 0.1293,
+        "ci95": [
+          0.0934,
+          0.1681
+        ],
+        "n": 159
+      },
+      "high_medium_faithfulness_rate": 0.7484
+    }
+  },
+  "paired_deltas": {
+    "snapshot_rag_minus_b3:shapley_dclr": {
+      "delta_mean": 0.0038,
+      "ci95": [
+        -0.0236,
+        0.0319
+      ]
+    },
+    "snapshot_rag_minus_b3:olr": {
+      "delta_mean": 0.0022,
+      "ci95": [
+        -0.0174,
+        0.0213
+      ]
+    },
+    "snapshot_rag_minus_b3:performance": {
+      "delta_mean": -0.0131,
+      "ci95": [
+        -0.0663,
+        0.0416
+      ]
+    },
+    "snapshot_rag_minus_b4:shapley_dclr": {
+      "delta_mean": 0.018,
+      "ci95": [
+        -0.0065,
+        0.0447
+      ]
+    },
+    "snapshot_rag_minus_b4:olr": {
+      "delta_mean": 0.0125,
+      "ci95": [
+        -0.0055,
+        0.0305
+      ]
+    },
+    "snapshot_rag_minus_b4:performance": {
+      "delta_mean": -0.0175,
+      "ci95": [
+        -0.0691,
+        0.0354
+      ]
+    },
+    "b3_minus_snapshot_rag:shapley_dclr": {
+      "delta_mean": -0.0038,
+      "ci95": [
+        -0.0321,
+        0.0234
+      ]
+    },
+    "b3_minus_snapshot_rag:olr": {
+      "delta_mean": -0.0022,
+      "ci95": [
+        -0.0216,
+        0.0172
+      ]
+    },
+    "b3_minus_snapshot_rag:performance": {
+      "delta_mean": 0.0131,
+      "ci95": [
+        -0.0409,
+        0.0664
+      ]
+    },
+    "b3_minus_b4:shapley_dclr": {
+      "delta_mean": 0.0142,
+      "ci95": [
+        0.0051,
+        0.0256
+      ]
+    },
+    "b3_minus_b4:olr": {
+      "delta_mean": 0.0103,
+      "ci95": [
+        0.0037,
+        0.0187
+      ]
+    },
+    "b3_minus_b4:performance": {
+      "delta_mean": -0.0043,
+      "ci95": [
+        -0.013,
+        0.0017
+      ]
+    },
+    "b4_minus_snapshot_rag:shapley_dclr": {
+      "delta_mean": -0.018,
+      "ci95": [
+        -0.0441,
+        0.0061
+      ]
+    },
+    "b4_minus_snapshot_rag:olr": {
+      "delta_mean": -0.0125,
+      "ci95": [
+        -0.0307,
+        0.0056
+      ]
+    },
+    "b4_minus_snapshot_rag:performance": {
+      "delta_mean": 0.0175,
+      "ci95": [
+        -0.0342,
+        0.0711
+      ]
+    },
+    "b4_minus_b3:shapley_dclr": {
+      "delta_mean": -0.0142,
+      "ci95": [
+        -0.0256,
+        -0.0051
+      ]
+    },
+    "b4_minus_b3:olr": {
+      "delta_mean": -0.0103,
+      "ci95": [
+        -0.0188,
+        -0.0034
+      ]
+    },
+    "b4_minus_b3:performance": {
+      "delta_mean": 0.0043,
+      "ci95": [
+        -0.0018,
+        0.0134
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "google/gemini-3.1-pro-preview#run1": {
+    "all_120_accuracy": 0.9,
+    "balanced_90_accuracy": 0.8666666666666667,
+    "balanced_90_macro_f1": 0.8533535001879777,
+    "balanced_90_kappa": 0.8501040943789036,
+    "balanced_90_tier_accuracy": 0.9777777777777777,
+    "balanced_90_tier_kappa": 0.962025316455696
+  }
+}

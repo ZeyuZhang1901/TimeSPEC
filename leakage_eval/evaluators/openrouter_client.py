@@ -11,6 +11,8 @@ from typing import TYPE_CHECKING, Any
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from LeakageEvaluationFramework import usage_log
+
 if TYPE_CHECKING:
     from LeakageEvaluationFramework.leakage_eval.schemas import EvalInput, EvidenceItem
 
@@ -65,14 +67,18 @@ class OpenRouterTextClient:
         self._client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=key)
         self.last_usage: UsageStat | None = None
 
-    async def call_text(self, prompt: str, system: str | None = None) -> str:
+    async def call_text(
+        self, prompt: str, system: str | None = None, stage: str = "judge"
+    ) -> str:
         """Call a text model."""
 
-        text, usage = await asyncio.to_thread(self._call_text_sync, prompt, system)
+        text, usage = await asyncio.to_thread(self._call_text_sync, prompt, system, stage)
         self.last_usage = usage
         return text
 
-    def _call_text_sync(self, prompt: str, system: str | None) -> tuple[str, UsageStat | None]:
+    def _call_text_sync(
+        self, prompt: str, system: str | None, stage: str = "judge"
+    ) -> tuple[str, UsageStat | None]:
         messages: list[dict[str, str]] = []
         if system:
             messages.append({"role": "system", "content": system})
@@ -82,16 +88,25 @@ class OpenRouterTextClient:
             "messages": messages,
             "temperature": self.config.temperature,
             "max_tokens": self.config.max_tokens,
-            # Match coalition predictor / generation: reasoning models (e.g. Kimi) otherwise
-            # burn max_tokens on hidden reasoning and return empty assistant content, which
-            # breaks JSON-only taxonomy parsing.
-            "extra_body": {"reasoning": {"effort": "none"}},
         }
+        # Most reasoning models should suppress hidden reasoning for short JSON
+        # judgments. Gemini 3.1 Pro, however, requires reasoning and rejects
+        # effort="none", so allow its provider default.
+        if "gemini-3.1-pro" not in self.config.model:
+            params["extra_body"] = {"reasoning": {"effort": "none"}}
 
         last_error: Exception | None = None
         for attempt in range(1, _MAX_RETRIES_RATE_LIMIT + 1):
             try:
+                started = time.perf_counter()
                 resp = self._client.chat.completions.create(**params)
+                usage_log.record_response(
+                    component="judge_client",
+                    stage=stage,
+                    model=self.config.model,
+                    response=resp,
+                    latency_s=time.perf_counter() - started,
+                )
                 content = resp.choices[0].message.content or ""
                 usage = None
                 if resp.usage is not None:
@@ -186,7 +201,15 @@ class OpenRouterCoalitionPredictor:
         last_error: Exception | None = None
         for attempt in range(1, _MAX_RETRIES_RATE_LIMIT + 1):
             try:
+                started = time.perf_counter()
                 resp = self._openai.chat.completions.create(**params)
+                usage_log.record_response(
+                    component="coalition_predictor",
+                    stage="shapley_coalition",
+                    model=self._model,
+                    response=resp,
+                    latency_s=time.perf_counter() - started,
+                )
                 content = resp.choices[0].message.content or ""
                 if resp.usage is not None:
                     self.last_usage = UsageStat(

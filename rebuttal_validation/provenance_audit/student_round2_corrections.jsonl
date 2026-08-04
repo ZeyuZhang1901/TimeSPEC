@@ -1,0 +1,20 @@
+{"sample_id":"R091","label":"A","confidence":"M","note":"Pre-cutoff rumors and commentary about Justice Kennedy's expected retirement occurred during 2018."}
+{"sample_id":"R053","label":"A","confidence":"M","note":"Zipline's Rwanda medical drone delivery project launched in October 2016 and was active before the cutoff."}
+{"sample_id":"R016","label":"A","confidence":"M","note":"The claim cites the 2019 Global Food Security Index, published before the 2020 cutoff."}
+{"sample_id":"R083","label":"A","confidence":"M","note":"The claim concerns media speculation from January 2016 before the cutoff, although scientific confirmation came later."}
+{"sample_id":"R097","label":"A","confidence":"M","note":"The claim describes the general absence of a dedicated DIY CRISPR regulatory framework as of 2015."}
+{"sample_id":"R084","label":"A","confidence":"M","note":"The August 30, 2018 Amazon share-price figures were contemporaneously reported before the cutoff."}
+{"sample_id":"R062","label":"A","confidence":"M","note":"Pai announced the Title II rollback plan in April 2017 before the June cutoff."}
+{"sample_id":"R056","label":"A","confidence":"M","note":"The claim describes the state of affairs through 2014 and inactivity since 2009."}
+{"sample_id":"R028","label":"A","confidence":"M","note":"Egypt's request for UN Security Council involvement and Ethiopia's rejection occurred before the October 2020 cutoff."}
+{"sample_id":"R089","label":"A","confidence":"M","note":"The claim reflects the ICD-11 draft and scientific discourse available by early 2016."}
+{"sample_id":"R046","label":"A","confidence":"M","note":"The January 2016 Hurghada attack and immediate tourism impact preceded the September cutoff."}
+{"sample_id":"R077","label":"A","confidence":"M","note":"Contemporaneous reporting stated that Lula could still register while later electoral disqualification remained pending."}
+{"sample_id":"R044","label":"A","confidence":"M","note":"IAEA reports through mid-2016 described regular access to declared sites before the cutoff."}
+{"sample_id":"R067","label":"A","confidence":"M","note":"Before September 1, 2015, no firm trilateral summit date had been formally confirmed."}
+{"sample_id":"R074","label":"A","confidence":"M","note":"Panama Canal lock leaks, repair rejection, and concrete cracks were publicly reported before the November 2015 cutoff."}
+{"sample_id":"R092","label":"A","confidence":"M","note":"Kennedy's retirement and Ginsburg's prior health history were established before the October 2018 cutoff."}
+{"sample_id":"R032","label":"A","confidence":"M","note":"The Turkish lira decline and related geopolitical tensions were widely reported before the December 2020 cutoff."}
+{"sample_id":"R031","label":"A","confidence":"M","note":"The reported 2020 USD/TRY high, low, and average closely match contemporaneous full-year data available by the December 22 cutoff; minor provider differences are not a temporal issue."}
+{"sample_id":"R017","label":"C","confidence":"M","note":"No UAE-specific pre-cutoff evidence or usable archive establishes the exact claim."}
+{"sample_id":"R081","label":"C","confidence":"M","note":"No usable pre-cutoff archive establishes the exact transition-timeline claim, and the retrieved explanation contains inconsistent date logic."}

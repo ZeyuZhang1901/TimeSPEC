@@ -12,7 +12,7 @@ set -uo pipefail
 cd "$(dirname "$0")/../.."
 
 CONFIG="LeakageEvaluationFramework/configs/leakage_eval_task_sensitivity.yaml"
-DATASET="dataset/evaluation/task_sensitivity_full_metadata.json"
+DATASET="data/task_sensitivity_full_metadata.json"
 INPUT_BASE="runtime/task_sensitivity_full/qwen35_35b"
 OUTPUT_BASE="runtime/task_sensitivity_eval/full"
 MODEL="qwen/qwen3.5-35b-a3b"

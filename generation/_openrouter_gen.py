@@ -14,6 +14,8 @@ from typing import Any
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from LeakageEvaluationFramework import usage_log
+
 logger = logging.getLogger(__name__)
 
 _MAX_RETRIES = 3
@@ -49,14 +51,15 @@ class OpenRouterGenerator:
             raise ValueError("Missing OPENROUTER_API_KEY for OpenRouterGenerator.")
         self._client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=key)
 
-    def generate_one(self, system: str, user: str) -> str:
+    def generate_one(self, system: str, user: str, stage: str = "generation") -> str:
         """Generate a single completion."""
-        return self._call_sync(system, user)
+        return self._call_sync(system, user, stage)
 
     def generate_batch(
         self,
         inputs: list[tuple[str, str]],
         batch_size: int = 8,
+        stage: str = "generation",
     ) -> list[str]:
         """Generate completions for a list of (system, user) pairs.
 
@@ -65,13 +68,13 @@ class OpenRouterGenerator:
         """
         n = len(inputs)
         if self._concurrency <= 1:
-            return self._generate_batch_sequential(inputs, batch_size)
+            return self._generate_batch_sequential(inputs, batch_size, stage)
 
         completions: list[str | None] = [None] * n
         done = 0
         with ThreadPoolExecutor(max_workers=self._concurrency) as pool:
             future_to_idx = {
-                pool.submit(self._call_sync, sys_msg, usr_msg): i
+                pool.submit(self._call_sync, sys_msg, usr_msg, stage): i
                 for i, (sys_msg, usr_msg) in enumerate(inputs)
             }
             for future in as_completed(future_to_idx):
@@ -86,15 +89,16 @@ class OpenRouterGenerator:
         self,
         inputs: list[tuple[str, str]],
         batch_size: int,
+        stage: str = "generation",
     ) -> list[str]:
         completions: list[str] = []
         for i, (sys_msg, usr_msg) in enumerate(inputs):
-            completions.append(self._call_sync(sys_msg, usr_msg))
+            completions.append(self._call_sync(sys_msg, usr_msg, stage))
             if (i + 1) % batch_size == 0:
                 logger.info("Generated %d / %d completions", i + 1, len(inputs))
         return completions
 
-    def _call_sync(self, system: str, user: str) -> str:
+    def _call_sync(self, system: str, user: str, stage: str = "generation") -> str:
         messages: list[dict[str, str]] = [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
@@ -104,7 +108,7 @@ class OpenRouterGenerator:
             "messages": messages,
             "temperature": self._temperature,
             "max_tokens": self._max_tokens,
-            "extra_body": {"reasoning": {"effort": "none"}},
+            "extra_body": {"reasoning": {"effort": "none"}, "usage": {"include": True}},
         }
         if self._frequency_penalty:
             params["frequency_penalty"] = self._frequency_penalty
@@ -114,7 +118,15 @@ class OpenRouterGenerator:
         last_error: Exception | None = None
         for attempt in range(1, _MAX_RETRIES + 1):
             try:
+                started = time.perf_counter()
                 resp = self._client.chat.completions.create(**params)
+                usage_log.record_response(
+                    component="generator",
+                    stage=stage,
+                    model=self._model_name,
+                    response=resp,
+                    latency_s=time.perf_counter() - started,
+                )
                 return resp.choices[0].message.content or ""
             except Exception as exc:
                 last_error = exc

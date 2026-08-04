@@ -1,0 +1,15 @@
+{
+  "n": 100,
+  "conservative_auto_counts": {
+    "C": 74,
+    "A": 4,
+    "B": 22
+  },
+  "high_confidence_counts": {
+    "A": 4,
+    "B": 22,
+    "C": 3
+  },
+  "pre_snapshot_text_usable": 9,
+  "verification_file": "/Users/stevenzhang/Downloads/LeakageEvaluationFramework/rebuttal_validation/provenance_audit/human_verification.csv"
+}

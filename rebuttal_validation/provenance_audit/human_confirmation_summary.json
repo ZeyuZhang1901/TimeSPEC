@@ -1,0 +1,10 @@
+{
+  "confirmed_items": 26,
+  "confirmed_counts": {
+    "A": 4,
+    "B": 22
+  },
+  "verified_pre_cutoff_rate_among_confirmed": 0.15384615384615385,
+  "post_cutoff_rate_among_confirmed": 0.8461538461538461,
+  "selection_note": "The confirmed set contains only high-confidence automatic A/B cases; rates are not estimates over all 100 retrievals."
+}

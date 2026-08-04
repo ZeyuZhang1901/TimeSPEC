@@ -1,0 +1,256 @@
+{
+  "google/gemini-3.1-pro-preview#run1": {
+    "all_120": {
+      "n": 120,
+      "accuracy": 0.9,
+      "macro_f1": 0.8749985218329993,
+      "cohen_kappa": 0.877603059923502,
+      "tier_accuracy": 0.9833333333333333,
+      "tier_kappa": 0.9661016949152541,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 1.0,
+          "recall": 0.18181818181818182,
+          "f1": 0.3076923076923077,
+          "support": 11
+        },
+        "C4": {
+          "precision": 0.9090909090909091,
+          "recall": 0.8333333333333334,
+          "f1": 0.8695652173913043,
+          "support": 12
+        },
+        "C5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C6": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 40
+        },
+        "C7": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1": 0.9523809523809523,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 25,
+          "gold": "C3",
+          "predicted": "C4"
+        },
+        {
+          "human_id": 31,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 32,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 34,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 35,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 36,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 38,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 39,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 40,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 87,
+          "gold": "C8",
+          "predicted": "C7"
+        }
+      ]
+    },
+    "balanced_90": {
+      "n": 90,
+      "accuracy": 0.8666666666666667,
+      "macro_f1": 0.8533535001879777,
+      "cohen_kappa": 0.8501040943789036,
+      "tier_accuracy": 0.9777777777777777,
+      "tier_kappa": 0.962025316455696,
+      "per_class": {
+        "C0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C1": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 8
+        },
+        "C2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "C3": {
+          "precision": 1.0,
+          "recall": 0.18181818181818182,
+          "f1": 0.3076923076923077,
+          "support": 11
+        },
+        "C4": {
+          "precision": 0.9090909090909091,
+          "recall": 0.8333333333333334,
+          "f1": 0.8695652173913043,
+          "support": 12
+        },
+        "C5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "C6": {
+          "precision": 0.5555555555555556,
+          "recall": 1.0,
+          "f1": 0.7142857142857143,
+          "support": 10
+        },
+        "C7": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1": 0.9523809523809523,
+          "support": 10
+        },
+        "C8": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316,
+          "support": 10
+        }
+      },
+      "errors": [
+        {
+          "human_id": 15,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 16,
+          "gold": "C4",
+          "predicted": "C1"
+        },
+        {
+          "human_id": 25,
+          "gold": "C3",
+          "predicted": "C4"
+        },
+        {
+          "human_id": 31,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 32,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 34,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 35,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 36,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 38,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 39,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 40,
+          "gold": "C3",
+          "predicted": "C6"
+        },
+        {
+          "human_id": 87,
+          "gold": "C8",
+          "predicted": "C7"
+        }
+      ]
+    }
+  }
+}

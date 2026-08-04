@@ -1,0 +1,6 @@
+{
+  "method": "b3",
+  "model": "qwen/qwen3.5-35b-a3b",
+  "n_completions": 12,
+  "parse_success_rate": 1.0
+}

@@ -1,0 +1,7 @@
+{
+  "n": 5,
+  "parse_success": 4,
+  "elapsed_s": 37.7,
+  "model": "qwen/qwen3.5-35b-a3b",
+  "usable_contexts_total": 67
+}
